@@ -961,7 +961,8 @@
         "delete_domain_with_all_resources_msg": "Домен {{domainName}} не пуст и содержит {{domainRegularAccounts}} учетных записей, {{domainSystemAccounts}} системных учетных записей, {{distributionList}} список рассылки, {{aliases}} псевдонимов и {{resources}} ресурсов. Если вы не уверены, вы все равно можете «закрыть» домен, чтобы избежать дальнейшего взаимодействия, оставив все ресурсы доступными в случае необходимости. В противном случае вы можете безвозвратно удалить все учетные записи и объекты домена. Эта операция не может быть отменена.",
         "save_a_copy_of_sent_messages_only_in_delegates_send_folder": "Сохранение копии отправленных сообщений только в папке отправки делегата",
         "save_a_copy_of_sent_messages_to_delegate_and_delegated_send_folder": "Сохраняйте копии отправленных сообщений в папку делегирования и делегированной отправки",
-        "you_have_generated_the_sp_certificate": "Вы создали сертификат SP"
+        "you_have_generated_the_sp_certificate": "Вы создали сертификат SP",
+        "gal_update_frequencey_value": "Значение частоты обновления глобального списка адресов"
     },
     "timezone": {
         "europe_bucharest": "{{value}} Бухарест",
