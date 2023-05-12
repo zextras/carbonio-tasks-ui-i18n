@@ -175,12 +175,16 @@
         "contacts": "Contacte",
         "files": "Fisiere",
         "storage": "Spatiu de stocare",
-        "value": "Valoare"
+        "value": "Valoare",
+        "cancle_button": "Nu."
     },
     "core": {
         "subscription": {
             "status": "Stare",
-            "hide": "Ascundere"
+            "hide": "Ascundere",
+            "modal": {
+                "cancel": "Nu."
+            }
         }
     },
     "domain": {
@@ -305,7 +309,8 @@
         "timeout_policy": "Politica privind expirarea sesiunii",
         "trashed_message_lifetime": "Durata mesajelor din coş",
         "user_specific_fowarding_addresses": "Limitare câmp adresă de redirecţionare specificată de utilizator la (caractere)",
-        "files": "Fisiere"
+        "files": "Fisiere",
+        "enable_past_due_reminders": "Activare mementouri pentru scadenţe depăşite"
     },
     "locale": {
         "English": "engleză",
@@ -353,7 +358,8 @@
         "remove": "Eliminare",
         "send_check": "Trimite",
         "services": "Servicii",
-        "status": "Stare"
+        "status": "Stare",
+        "enable_past_due_reminders": "Activare mementouri pentru scadenţe depăşite"
     },
     "connection": {
         "notes": "Note"
