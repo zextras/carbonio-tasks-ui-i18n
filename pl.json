@@ -1,553 +1,312 @@
 {
     "timezone": {
-        "europe_istanbul": "{{value}} Istambuł",
         "europe_moscow": "{{value}} Moskwa, St. Petersburg, Wołgograd (RTZ 2)",
-        "europe_warsaw": "{{value}} Sarajewo, Skopje, Warszawa, Zagrzeb",
         "pacific_bougainville": "{{value}} Standardowy Czas Bouganville",
-        "africa_harare": "{{value}} Harare, Pretoria",
         "africa_nairobi": "{{value}} Nairobi",
-        "america_adak": "{{value}} Adak",
         "america_asuncion": "{{value}} Asuncion",
-        "america_caracas": "{{value}} Caracas",
         "america_cuiaba": "{{value}} Cuiaba",
-        "america_guatemala": "{{value}} Ameryka Środkowa",
         "america_indiana_indianapolis": "{{value}} Indiana (Wschód)",
-        "america_montevideo": "{{value}} Montevideo",
         "america_punta_arenas": "{{value}} Punta Arenas",
-        "america_st_johns": "{{value}} Nowa Fundlandia",
         "asia_amman": "{{value}} Jordania",
-        "asia_barnaul": "{{value}} Barnaul",
         "asia_damascus": "{{value}} Damaszek",
-        "asia_hovd": "{{value}} Kobdo",
         "asia_kamchatka": "{{value}} Anadyr, Pietropawłowsk Kamczacki (RTZ 11)",
-        "asia_krasnoyarsk": "{{value}} Krasnojarsk (RTZ 6)",
         "asia_muscat": "{{value}} Abu Dabi, Maskat",
-        "asia_qyzylorda": "{{value}} Kyzyłorda",
         "asia_srednekolymsk": "{{value}} Czokurdach (RTZ 10)",
-        "asia_tehran": "{{value}} Teheran",
         "asia_vladivostok": "{{value}} Władywostok, Magadan (RTZ 9)",
-        "asia_yerevan": "{{value}} Erywań",
         "australia_adelaide": "{{value}} Adelaide",
-        "australia_hobart": "{{value}} Hobart",
         "etc_gmt+12": "{{value}} Linia zmiany daty",
-        "europe_berlin": "{{value}} Amsterdam, Berlin, Berno, Rzym, Sztokholm, Wiedeń",
         "pacific_fiji": "{{value}} Fidżi",
-        "pacific_kiritimati": "{{value}} Kiritimati",
         "pacific_tongatapu": "{{value}} Nuku'alofa"
     },
     "buckets": {
         "connection": {
-            "verify_connector": "ZWERYFIKUJ ŁĄCZNIK",
             "arn_name": "Arn / Nazwa"
         },
-        "connect_buckets": "Połącz buckety",
         "summary": {
-            "access_key": "Klucz dostępu",
-            "secret_key": "Tajny klucz"
+            "access_key": "Klucz dostępu"
         },
         "alibaba_regions": {
             "ap_northeast_1": "Japonia (Tokyo)",
-            "ap_southeast_3": "Malezja (Kuala Lumpur)",
             "cn_hangzhou": "Chiny (Hangzhou)",
-            "cn_shenzhen": "Chiny (Shenzen)",
             "me_east_1": "ZEA Dubaj"
         },
         "amazon_regions": {
-            "ap_northeast_1": "Azja Pacyfik (Tokyo)",
             "ap_southeast_2": "Azja Pacyfik (Sydney)",
-            "eu_north_1": "UE (Sztokholm)",
             "govcloud": "AWS GovCloud (USA)",
-            "us_east_1": "USA Wschód (Północna Wirginia)",
             "af_south_1": "Afryka (Cape Town)"
         },
-        "invalid_compression_thresold": "Wymagany jest próg kompresji",
         "s3_types": {
             "amazone_web_service_s3": "Amazon Web Service S3",
-            "emc_s3": "EMC S3",
             "minio": "Minio"
         }
     },
     "core": {
         "subscription": {
-            "company_name": "Nazwa firmy",
             "features": "Rozwiń",
-            "subscription_last_check": "Ostatnie sprawdzenie subskrypcji",
             "modal": {
-                "warning": "Próbujesz deaktywować aktualny token. Jego deaktywacja wyłączy wszystkie włączone funkcje.",
-                "cancel": "NIE"
+                "warning": "Próbujesz deaktywować aktualny token. Jego deaktywacja wyłączy wszystkie włączone funkcje."
             },
             "order_id": "ID zamówienia"
         }
     },
     "domain": {
-        "free_busy": "Wolny/zajęty",
         "authentication": "Uwierzytelnianie",
-        "most_result_return_gal_search": "Najwięcej wyników zwróconych przez wyszukiwanie GLA",
         "many_domain_info_msg": "Ale dużo domen! Którą z nich chcesz zobaczyć? Aby filtrować, zacznij wpisywać.",
-        "send_the_warning_to": "Wyślij ostrzeżenie do",
         "mail_server": "Serwer poczty",
-        "account_list": "Lista kont",
         "max_result_return_gal_search": "Max. liczba wyników pokazywanych przy wyszukiwaniu GLA",
-        "certificate_type_use_custom": "Chcę użyć niestandardowego certyfikatu",
         "certificate_saved": "Certyfikaty zostały zapisane",
-        "private_key_certificate_removed": "Prywatny klucz certyfikatu został usunięty",
-        "unit_measure_hours": "Godziny",
-        "ldap": "LDAP"
+        "unit_measure_hours": "Godziny"
     },
     "label": {
         "accounts": "Konta",
         "app_name": "Zadania",
-        "days": "Dni",
         "external": "Zewnętrzne",
-        "name": "Nazwa",
         "of": "z",
-        "remove": "Usuń",
         "status": "status",
-        "url": "URL",
         "certificate": "Certyfikat",
-        "enable_start_tls": "Włącz StartTLS",
         "filter": "Filtr",
-        "locked": "Zablokowane",
         "automatically_add_forwarded_invites_to_calendar": "Automatycznie dodawaj do kalendarza przekazane dalej zaproszenia",
-        "create": "Stwórz",
         "address": "Adres",
-        "always_compose_in_new_window": "Zawsze twórz w nowym oknie",
         "details": "Szczegóły",
-        "enable_mandatory_spell_check": "Włącz obowiązkowe sprawdzanie pisowni",
         "general_Settings": "Ustawienia ogólne",
-        "hsm_policies": "Polityki HSM",
         "mailbox_quota": "Limit przestrzeni dla skrzynki pocztowej",
-        "new_cos": "Nowe COS",
         "out_of_office_cache_lifetime": "Okres życia pamięci cache podczas Poza biurem",
-        "reply/forward_using_format_of_the_original_message": "Odpowiedz/przekaż dalej, używając formatu oryginalnej wiadomości",
         "save_and_leave": "Zapisz i opuść",
-        "service_status": "Status usługi",
         "time_zone": "Strefa czasowa",
-        "unsaved_changes_line2": "Wszystkie niezapisane zmiany zostaną utracone",
         "volumes": "Woluminy",
-        "bucket_cancel_button": "ANULUJ",
         "cos": "COS",
-        "edit": "Edytuj",
         "location": "Lokalizacja",
-        "password": "Hasło",
         "signatures": "Podpisy",
-        "wizard_cancel_button": "ANULUJ",
         "search_dot": "Wyszukaj…",
-        "no_auto_accept_or_decline": "Nigdy nie akceptuj automatycznie, nawet jeśli uzytkownik jest dostępny",
         "your_auth_method_is": "Metoda uwierzytelniania",
-        "wizard_previous_button": "DALEJ",
         "viewed_name_auto_fill": "Wyświetlana nazwa (automatyczne uzupełnianie)",
-        "verify_error": "{{name}}",
         "utility_view3": "Testuj widok praktyczny 3",
-        "userName_auto_fill": "użytkownik (automatycznie uzupełniony)",
         "this_list_is_member_of": "Ta lista to część",
-        "the_last_changes_has_been_saved_successfully": "Zmiany zostały zapisane pomyślnie",
         "something_wrong_error_msg": "Coś poszło nie tak. Spróbuj ponownie.",
-        "server_settings": "Ustawienia serwera",
         "secret_key": "Tajny klucz",
-        "secondary_app": "Dodaj przykład",
         "search_base": "Podstawowe wyszukiwanie",
-        "save_to_sent_folder": "Zapisz do folderu wysłane",
         "quota_used": "Limit przestrzeni / użyta przestrzeń",
-        "percentage_maximum_conflict_allowed": "Max. % dozwolonych konfliktów",
         "no_virtual_host_msg": "Nie ma tutaj żadnych wirtualnych hostów.",
-        "new_signature": "<bold>Nowy podpis</bold>",
         "name_of_signature": "Nazwa podpisu",
-        "maximum_conflict_allowed": "Max. dozwolony konflikt",
         "main_view": "To jest widok",
-        "mailing_list_already_in_list_error": "Lista dystrybucyjna / Użytkownik znajduje się już na liście",
         "log": "Dziennik",
-        "index_volumes": "Indeksuj Woluminy",
         "i_am_looking_for_member": "Szukam członka…",
-        "general": "OGÓLNE",
         "force_delete": "Wymuś usunięcie",
-        "example_new": "Nowy przykład",
         "domain_status": "Status domeny",
-        "deligated_admin_help_url": "URL pomocy dla delegowanego administratora",
         "delete_domain_error_msg": "Usuwasz {{domainName}}. Czy na pewno chcesz usunąć {{domainName}}?",
-        "delete_content": "Usuwasz {{name}}. Czy na pewno chcesz to usunąć?",
         "default_settings": "Domyślne ustawienia",
-        "default_class_of_service": "Domyślna klasa usługi",
         "create_new_domain": "Stwórz nową domenę",
-        "create_date": "Data stworzenia",
         "cos_name": "Nazwa COS",
-        "connection_is_created_verify_connector_fail": "ŁĄCZNIK ZOSTAŁ STWORZONY, LECZ WERYFIKACJA SIĘ NIE POWIODŁA",
         "certificates": "Certyfikaty",
-        "bulk_actions": "Czynności masowe",
         "bucket_need_help_button": "POTRZEBUJESZ POMOCY?",
-        "admin_delegates": "Delegowani Administratorzy",
         "activate_and_update": "Aktywuj i zaktualizuj",
-        "auto_refuse": "Automatycznie odrzucaj",
         "auth_method": "Metoda uwierzytelniania",
-        "aggrigated_space_criteria": "Kryteria zsumowanej przestrzeni",
         "button_delete": "USUŃ",
-        "click_here": "Kliknij tutaj",
         "conversation": "Konwersacja",
-        "delete_button": "USUŃ",
         "domain": "Domena",
-        "forwarding": "Przekazywanie dalej",
         "list_name": "Nazwa listy",
-        "never": "Nigdy",
         "prefix": "Prefiks",
-        "quotas": "Limity przestrzeni",
         "use_last_available_status": "Używaj ostatniego dostępnego statusu",
-        "volume_cancel_button": "ANULUJ",
         "volume_name": "Nazwa woluminu",
         "week_day": {
-            "friday": "Piątek",
             "thursday": "Czwartek"
         },
-        "application_log": "Dziennik aplikacji",
         "volume_max_quota_allowed": "Max. dozwolony limit przestrzeni",
-        "username_without": "nazwa użytkownika bez",
         "the_has_been_created_success": "{{name}} zostało stworzone pomyślnie",
-        "sharing": "UDOSTĘPNIANIE",
         "sending_mails": "Wysyłanie e-maili",
-        "remind_appointments_timer": "Czasomierz dla przypomnień o spotkaniach",
         "out_of_office_message": "Wiadomość Poza biurem",
-        "new_volume_config": "KONFIGURACJA",
         "new_config": "KONFIGURACJA",
-        "maximum_conflict": "Max. konflikt",
         "main_settings": "Główne ustawienia",
-        "long_and_queues": "Dziennik i kolejki",
         "i_want_to_set_signature": "Chcę ustawić podpis",
-        "hidden_from_gal": "Ukryta z GLA",
         "filter_account_list": "Filtruj listę kont",
-        "enabed_address": "Adres",
         "deletion_date": "Data usunięcia",
-        "date_and_hour": "Data i godzina",
         "config": "Konfiguracja",
-        "bucket_list": "Lista bucketów",
         "appointments_default_duration": "Domyślna długość trwania spotkania",
-        "I_want_to_see_this_server_details": "Wybierz serwer",
         "accounts_that_are_owners": "Konta, które są właścicielami list dystrybucyjnych",
-        "data_volume": "Objętość danych",
         "deleting_account_content_2": "Usunięcie konta TRWALE usunie wszystkie jego dane. ",
-        "domains_that_use_this_cos": "Domeny, które używają tego COS",
         "external_ldap_server": "external-ldap-server",
-        "internal_users_only": "Tylko użytkownicy z mojej domeny",
         "owners_description": "Właściciele mogą zarządzać członkami list dystrybucyjnych (dodawanie i usuwanie e-maili) i edytować jej opcje.",
-        "search_for_user_add_button": "Wyszukaj użytkownika i kliknij przycisk DODAJ.",
         "there_are_not_owner_here": "Nie ma żadnych właścicieli.",
-        "virtual_host_user_msg_1": "Każdy użytkownik, który zaloguje się przy użyciu URL z jedną z poniższych nazw hostów zostanie przypisany do tej domeny, domain1.local.",
         "volume_created": "Wolumin został stworzony pomyślnie",
-        "who_can_send_mails_to_this_list": "Kto może wysyłać e-maile do tej listy?",
         "detail_error": "{{name}}",
-        "volume_create": "STWÓRZ",
         "configuration_lbl": "Konfiguracja",
-        "purge": "Wyczyszczenie",
         "are_you_sure_delete_distribution_list": "Czy na pewno chcesz usunąć <bold>{{name}}</bold>?",
-        "otp": "Hasło OTP",
         "on_startup_only": "Tylko przy uruchamianiu",
-        "smartscan": "SmartScan",
         "dl_delete_successfull": "{{name}} zostało usunięte",
-        "DELETE": "USUŃ",
         "device_id": "ID urządzenia",
-        "enabled": "Włączone",
         "mobile_password": "Hasło Mobilne",
-        "select_an_external_volume": "Wybierz wolumin zewnętrzny",
         "title": "Tytuł",
-        "wipe_device": "Wyczyść urządzenie",
         "rest_device_warning_msg_1": "Wyczyszczenie urządzenia przywróci je do ustawień fabrycznych. Czy na pewno chcesz kontynuować? ",
-        "aware_of_doing_device_factory_settings": "Chcę zresetować do ustawień fabrycznych",
         "admin_panel": "Panel administracyjny",
-        "background_for_the_login_page": "Tło do ekranu logowania",
         "close_the_resource": "Zamknij zasób",
-        "active_sync_active_paused": "ActiveSync jest aktywne/zatrzymane",
         "destination": "Cel",
-        "end_user_title": "UŻYTKOWNIK KOŃCOWY",
         "favicon_description": "Wklej URL ikonki w karcie przeglądarki (favicon) dla ekranu logowania. Użyj pliku ICO, rozdzielczość 16x16 pikseli.",
-        "index_volume": "To jest wolumin indeksowy",
         "link_button": "LINK",
-        "logo_for_webapp": "Logo do klienta sieciowego",
         "migrate": "Migruj",
-        "no_donot_reset_device": "Nie, nie resetuj",
         "owners_settings_lbl": "Ustawienia właścicieli",
-        "remove_button": "USUŃ",
         "reset_theme_content_2": "Jeśli klikniesz TAK, wszystkie dane zostana utracone.",
-        "select_a_bucket_configuration": "Wybierz konfigurację bucketa",
         "storage_centralized": "Chcę, żeby ta pamięć była zcentralizowana",
-        "true": "Włączone",
         "will_be_centralized_in_helptext": "Będzie zcentralizowane w",
-        "you_are_trying_reset_device": "Próbujesz zresetować urządzenie",
         "bucket_create_button": "STWÓRZ",
-        "notifications": "Notifications",
         "verify": "Zweryfikuj",
-        "load_certificate_message": "Prześlij certyfikat, aby zobaczyć jego szczegóły.<br />Kliknij w <strong>\"PRZEŚLIJ I ZWERYFIKUJ CERTYFIKAT +\"</strong>, aby zacząć",
         "Aliases": "Aliasy",
-        "copyrights_information": "Informacje o prawach autorskich",
         "domain_certificate": "Certyfikat domeny",
-        "download_pdf": "POBIERZ PDF",
         "load_you_cert_file": "Prześlij plik z certyfikatem",
-        "no_virtual_host_message": "Nie ma tutaj żadnych wirtualnych hostów.<br />Kliknij w przycisk DODAJ, aby go utworzyć.",
         "type_an_account_add_senders_list": "Wprowadź adres e-mail, aby nadać mu uprawnienia nadawcy",
-        "centralized": "Zcentralizowane",
         "general_options": "Ustawienia ogólne",
-        "running": "Działa",
         "cancel_operations_message": "Czy na pewno chcesz ANULOWAĆ tę operację? <br /> Klikając ANULUJ OPERACJĘ, zostanie ona <br /> usunięta z kolejki operacji.",
-        "stop_operations_msg": "Czy na pewno chcesz ZATRZYMAĆ tę operację? <br /> Po kliknięciu ZATRZYMAJ OPERACJĘ, zostanie ona zatrzymana i usunięta z kolejki operacji.",
         "cancel_operations_msg": "Czy na pewno chcesz ANULOWAĆ tę operację? <br /> Po kliknięciu ANULUJ OPERACJĘ, zostanie ona usunięta z kolejki operacji.",
-        "please_wait": "Proszę czekać",
         "stop_operations_message": "Czy na pewno chcesz ZATRZYMAĆ tę operację? <br /> Po kliknięciu ZATRZYMAJ OPERACJĘ zostanie ona zatrzymana i <br /> usunięta z kolejki operacji.",
-        "use_intelligent_tiering_helptext": "<underline>Dokumentacja Amazon Tiering</underline>",
         "volume_created_msg": "Wolumin został stworzony",
-        "REMOVE": "USUŃ",
         "contacts": "Kontakty",
-        "out_of_the_office_reply": "Odpowiedź Poza biurem",
         "backup_primarybar_tooltip": "Zarządzaj swoimi <bold>usługami kopii zapasowej, zobacz ich status, listę serwerów lub zaimportuj istniejącą kopię zapasową.</bold>",
-        "download_quota_Report": "Pobierz raport użycia przestrzeni",
         "mobile_app": "Aplikacja mobilna",
-        "quota_used_lbl": "Użyta przestrzeń",
         "sort_by_percentage": "Sortuj wg udziału",
-        "web_feature": "Funkcja dla klienta sieciowego",
         "distribution_list": "Lista dystrybucyjna",
-        "dont_save_a_copy_of_sent_messages": "Nie zapisuj kopii wysłanych wiadomości",
         "allow_unsecure": "Zezwalaj na niezabezpieczone",
-        "byte_lbl": "BAJT",
         "changes_save_success_msg": "Zmiany zostały zapisane!",
-        "color_code": "Kod koloru",
         "delegate_send_settings": "Deleguj ustawienia wysyłania",
-        "delete_domain_with_all_resources_post_msg": "Jeżeli nie jesteś pewien, możesz zamknąć domenę. W ten sposób unikniesz kolejnych interakcji z nią a wszystkie zasoby pozostaną dostępne w razie potrzeby. Możesz też trwale usunąć wszystkie konta i obiekty domeny. Tej operacji nie da się cofnąć.",
         "destroy_account_button": "TAK, USUŃ",
-        "entity_id": "ID jednostki",
         "frequency_value_also_updated": "Częstotliwość aktualizacji GLA została zaktualizowana",
-        "import": "IMPORTUJ",
         "ldap_search_base": "Baza wyszukiwania LDAP",
-        "personalisation": "Personalizacja",
         "privacy_lbl": "<bold>Prywatność</bold>",
-        "save_a_copy_of_sent_messages_only_in_delegates_send_folder": "Zapisuj kopię wysyłanych wiadomości jedynie do folderu wysłane pełnomocnika",
         "service_url_copied": "URL usługi zostało skopiowane",
-        "system_account": "Konta systemowe",
         "you_have_deleted_the_configuration": "Usunąłeś konfigurację",
-        "you_have_updated_attribute": "Zaktualizowałeś atrybut {{ attributeName }}",
         "keep_it_button": "NIE, ZACHOWAJ JE",
-        "type_account_name_for_global_address_list": "Wpisz nazwę konta dla Globalnej Listy Adresów (GLA)",
-        "gal_update_frequencey_value": "Częstotliwość aktualizacji GLA"
+        "gal_update_frequencey_value": "Częstotliwość aktualizacji GLA",
+        "new": "Nowe zadanie"
     },
     "backup": {
-        "backup_path": "Ścieżka kopii zapasowej",
         "keep_delted_items_backup": "Zachowuj usunięte pozycje w kopii zapasowej",
-        "module_enable_at_startup": "Moduł włączony przy uruchomieniu",
         "threads_for_items": "Wątki dla elementów",
-        "metatdata_size": "Rozmiar metadanych",
         "latency_high_threshold": "Max. próg opóźnienia",
-        "run_the_smart_scan_at_the_startup": "Rozpoczynaj SmartScan przy uruchomieniu",
         "data_retention_policies": "Polityka przechowywania danych",
-        "keep_deleted_item_in_backup": "Zachowuj usunięte pozycje w kopii zapasowej",
         "range": "Jednostka czasu",
-        "latency": "Opóźnienie",
         "flash_metadata_in_the_disk_at_every_save": "Aktualizuj metadane na dysku przy każdym zapisie",
-        "ldap_working_properly": "LDAP działa prawidłowo",
         "keep_deleted_account_in_the_backup": "Zachowuj usunięte konto w kopii zapasowej",
-        "module_is_enabled_at_startup": "Włączaj ten moduł przy uruchomieniu",
         "running": "działa",
-        "space_threshold_mb": "Próg przestrzeni (MB)",
         "the_service_is_stopped": "Usługa jest zatrzymana",
-        "waiting_time": "Czas oczekiwania",
-        "bucket_configuration": "Konfiguracja bucketa",
-        "backup_configuration": "konfiguracja kopii zapasowej"
+        "bucket_configuration": "Konfiguracja bucketa"
     },
     "cos": {
         "contacts_options": "Opcje kontaktów",
-        "enable_message_deduping": "Włącz deduplikację wiadomości",
         "general_features": "Funkcje ogólne",
-        "index_junk_messages": "Indeksuj spam",
         "maximum_number_of_items_to_display_per_page": "Max. liczba elementów wyświetlanych na stronie",
-        "preferences": "Właściwości",
         "show_selection_checkbox_for_selecting_email_contact_voicemail_items_in_a_list_view_for_batch_operations": "Pokaż pole wyboru zaznaczania wiadomości e-mail, kontaktów, wiadomości głosowych w widoku listy na potrzeby operacji wsadowych",
-        "standard_html_client": "Standardowy klient (HTML)",
         "send_read_receipts": "Wysyłaj potwierdzenia przeczytania",
-        "shortest_allowed_duration_for_any_polling_interval": "Najkrótszy dozwolony interwał sprawdzania",
         "time_to_lockout_account": "Czas blokady konta",
-        "user_specific_fowarding_addresses": "Max. liczba znaków w polu adresów przekazywania dalej",
         "advanced_search": "Zaawansowane wyszukiwanie",
-        "calendar": "Kalendarz",
         "default_view": {
-            "day": "Widok dnia",
-            "work_week": "Widok tygodnia roboczego"
+            "day": "Widok dnia"
         },
         "email_retention_policy": "Polityka przechowywania wiadomości",
-        "failed_login_policy": "Polityka nieudanych logowań",
         "mail": "Skrzynka pocztowa",
-        "maximum_password_age": "Max. wiek hasła (dni)",
         "minimum_mail_polling_interval": "Min. interwał sprawdzania wiadomości",
-        "minimum_password_age": "Min. wiek hasła (dni)",
         "number_of_consecutive_failed_login_allowed": "Liczba dozwolonych kolejnych nieudanych logowań",
-        "prevent_user_from_changing_password": "Uniemożliwiaj użytkownikowi zmianę hasła",
         "quotas": "Limity przestrzeni",
-        "session_idle_timeout": "Limit czasowy braku aktywności",
         "use_ical_delegation_model_for_shared_calendars": "Używaj modelu delegacji iCal dla udostępnionych kalendarzy",
-        "search_for_people": "Wyszukiwanie osób",
         "password_set_to_use_external_authentication_information_msg": "Te ustawienia nie mają wpływu na hasła ustawione przez użytkowników w domenach, które używają zewnętrznego uwierzytelniania",
-        "minimum_duration_of_time_between_quota_warnings": "Min. okres czasu między ostrzeżeniami o limicie przestrzeni",
         "group_calender": "Zaawansowany kalendarz",
-        "enable_notification_for_new_appointment": "Włącz powiadomienia o nowych spotkaniach",
         "disabling_pool": "Wyłączanie puli",
-        "auto_delete_duplicate_messages": "Automatycznie usuwaj zduplikowane wiadomości",
         "allow_sending_cancellation_mail": "Zezwalaj na wysyłanie e-maili o anulowaniu",
-        "time_range": "Jednostka czasu",
         "chats": "Czaty"
     },
     "locale": {
-        "label_japanese": "Japoński - {{value}}",
         "label_russian": "Rosyjski - {{value}}",
-        "portuguese": "Portugalski",
         "spanish": "Hiszpański",
-        "chinese_china": "Chiński (Chiny)",
         "hindi": "Hindi",
-        "label_dutch": "Niderlandzki - {{value}}",
         "label_hindi": "Hindi - {{value}}"
     },
-    "accountDetails": {
-        "change_password_for_next_login": "Musi zmienić hasło przy nastepnym logowaniu"
-    },
     "select_section_from_left_menu": "Wybierz sekcję z menu po lewej stronie",
-    "new_bucket_summary": "PODSUMOWANIE",
     "log": "Dziennik",
-    "commons": {
-        "create_with_there_data": "STWÓRZ Z TYMI DANYMI"
-    },
     "account": {
         "new": {
             "create_otp_wizard": "Stwórz hasło OTP"
         }
     },
     "account_details": {
-        "advanced_search": "Zaawansowane wyszukiwanie",
         "contact": "Kontakty",
-        "default_view": {
-            "month": "Widok miesiąca"
-        },
         "general": "Ogólne",
-        "message_priority": "Priorytet wiadomości",
         "saved_searches": "Zapisane wyszukiwania",
-        "enable_toast_notifications": "Włącz powiadomienia",
         "view_mail_as_html": "Wyświetlaj e-maile jako HTML",
-        "this_user_must_change_password": "Ten użytkownik musi zmienić hasło",
         "sms_reminder": "Powiadomienia SMS",
-        "out_of_the_office_reply": "Odpowiedź Poza biurem",
         "min_new_check_interval_value": "Wartość",
-        "iamp_access": "Dostęp IMAP",
         "forwarding_addresses_hidden_from_the_user": "Adresy przekazywania dalej ukryte przed użytkownikiem",
-        "enable_notifications": "Włącz powiadomienia",
         "distribution_list_folder": "Folder listy dystrybucyjnej",
-        "can_send_auto_reply_messages": "Może wysyłać automatyczne odpowiedzi",
         "audible_reminder_notification": "Dźwiękowe przypomnienie",
-        "send": "WYSYŁANIE",
         "send_the_otp_to": "Wysyłaj hasło OTP do",
-        "files": "Pliki",
         "manage_aliases": "ZARZĄDZAJ ALIASEM",
-        "allow_user_check_minimum_interval": "Pozwalaj użytkownikowi na zmianę minimalnego interwału sprawdzania",
         "read_mails_only": "Tylko wyświetlanie e-maili (brak uprawnień do wysyłania e-maili)",
-        "all_folders": "Wszystkie foldery (w tym foldery, które zostaną stworzone w przyszłości)",
         "an_existing_group": "Istniejąca grupa",
-        "do_not_save_it": "Nie zapisuj",
         "search_here_for_an_account": "Wyszukaj konto",
-        "send_mails_only": "Tylko wysyłanie e-maili (brak dostępu do folderów)",
         "sending_options": "Ustawienia wysyłania",
-        "delegate_rights": "Uprawnienia pełnomocnika",
         "who_will_be_delegates": "Które osoby będą pełnomocnikami?",
-        "label": "Określenie",
         "status": "Status",
-        "account_with_read_only_rights": "Konta z uprawnieniami <bold>tylko wyświetlanie</bold>",
         "i_have_copied_the_password": "SKOPIOWAŁEM HASŁO",
-        "read_write": "Wyświetlanie/wysyłanie",
         "start_typing_account": "Zacznij wpisywać konto lub grupę, aby nadać im uprawnienia",
-        "account_read_only_rights": "To konto ma uprawnienia <bold>tylko wyświetlanie</bold>",
         "services_passphrase": "Hasło usług"
     },
-    "privacy": {
-        "allow_live_survey_feedbacks": "Zezwalaj na opinie z ankiet"
-    },
     "connection": {
-        "access_key": "Klucz dostępu",
-        "secret_key": "Tajny klucz"
+        "access_key": "Klucz dostępu"
     },
     "volume": {
         "server_list_header": {
-            "description": "Opis",
-            "server": "Serwer"
+            "description": "Opis"
         },
         "volume_allocation_list": {
-            "centralized": "Zcentralizowane",
-            "local_block_device": "Lokalne urządzenie blokowe"
+            "centralized": "Zcentralizowane"
         },
         "volume_config_header": {
             "indexer": "Indeksowanie"
         },
-        "volume_header": {
-            "id": "ID"
-        },
         "volume_indexer_header": {
             "current": "Aktualne"
         },
-        "volume_type": {
-            "index": "Indeks"
-        },
         "secondary_helperText": "Drugorzędny"
     },
-    "click_new_bucket_button_to_create_new_one": "Kliknij przycisk NOWY BUCKET, aby stworzyć nowy.",
     "hsm": {
         "contact": "Kontakty",
-        "days": "Dni",
         "document": "Dokument",
-        "hours": "Godziny",
         "items": "Pozycje",
-        "minimum_space_threshold": "Próg minimalnej przestrzeni",
         "new_policy_summary": "Podsumowanie nowej polityki",
-        "policy_settings": "Ustawienia polityki",
         "select_volumes": "Wybierz woluminy",
-        "type": "Typ",
         "secondry": "Drugorzędny",
-        "all_primary_volume_used_source_msg": "Wszystkie pierwszorzędne woluminy zostaną domyślnie użyte jako źródło. Możesz też ręcznie wybrać inne woluminy.",
         "copy_hsm_policy_from_clipboard_msg": "Jeśli nie jesteś pewny, możesz skopiować ciąg polityki do schowka i przywrócić ją później.",
-        "edit_hsm_policy_success": "Polityka HSM została zaktualizowana",
         "name_hsm_policies": "Polityki HSM serwera {{serverName}}",
-        "policy_has_been_coppied": "Polityka HSM została skopiowana do schowka",
-        "smaller_size": "Mniejsze (Rozmiar)",
-        "editing_policy": "Polityka edytowania"
+        "smaller_size": "Mniejsze (Rozmiar)"
     },
     "select_bucket_or_create_new_bucket_helperText": "Wygląda na to, że nie ustawiiono typu bucketa.\n\t\t\t\t\t\t\t\t\tKliknij w przycisk \"NOWY BUCKET\", aby stworzyć nowy.",
     "dashboard": {
-        "quick_access_default_domain": "Szybki dostęp do {defaultDomain}",
-        "new_notifications": "Nowe powiadomienia",
-        "your_notifications": "Twoje powiadomienia"
+        "new_notifications": "Nowe powiadomienia"
     },
     "notification": {
         "manage": "Zarządzaj",
-        "copy_notification_successfully": "Powiadomienie zostało skopiowane",
         "notification_mark_read_successfully": "Powiadomienie zostało oznaczone jako przeczytane"
     },
-    "cumminity_edition": "CE!",
     "virtual_hosts": {
         "load_and_verify_certificate": "Prześlij i zweryfikuj certyfikat"
     },
     "operations": {
-        "copy_btn": "SKOPIUJ",
         "label": {
             "Deep": "Głęboki",
-            "cancel_operation_btn": "ANULUJ OPERACJĘ",
-            "operation_type": "Typ operacji",
-            "submitted_at": "Zakończono o"
+            "operation_type": "Typ operacji"
         },
         "operations_list_header": {
-            "operation": "Operacja",
-            "submit_date": "Data wysłania"
+            "operation": "Operacja"
         },
         "cancel_opearation_btn": "ANULUJ OPERACJĘ",
-        "operationname_on_servername": "Operacja {{operationName}} na serwerze {{serverName}}",
         "stopping_operation_model_title": "Zatrzymujesz operację {{OperationName}}"
     },
     "modal": {
-        "iscurrent_confirm": {
-            "secondary_label": "NIE, POWRÓT"
-        },
         "close": "Zamknij",
         "reminder": {
-            "dismiss": "Zamknij"
+            "dismiss": "Zamknij",
+            "completeAll": "Ukończ wszystkie",
+            "title": "Przypomnienia o zadaniach",
+            "remindMeOn": "Przypomnij mi o",
+            "undoAll": "Cofnij wszystko"
         }
     },
-    "this_will_not_affect_data_already_stored": "To nie będzie miało wpływu na obecnie przechowywane dane",
     "action": {
         "complete": "Ukończ",
         "edit": "Edytuj",
@@ -555,11 +314,17 @@
     },
     "board": {
         "confirmButton": {
-            "edit": "edytować"
+            "edit": "edytuj",
+            "create": "stwórz"
         },
         "dateTimePicker": {
             "reminder": {
                 "label": "Przypomnienie"
+            },
+            "description": {
+                "error": {
+                    "label": "Przypomnienie jest włączone, wybierz datę i czas ;ub wyłącz przypomnienie"
+                }
             }
         },
         "label": {
@@ -576,6 +341,35 @@
                 "error": {
                     "label": "Max. dozwolona długość to 4096 znaków"
                 }
+            },
+            "taskDescription": {
+                "label": "Opis zadania"
+            }
+        },
+        "editTask": {
+            "title": "Edytuj zadanie"
+        },
+        "input": {
+            "description": {
+                "error": {
+                    "label": "Max. dozwolona długość to 1024 znaki"
+                }
+            },
+            "title": {
+                "label": "Tytuł*"
+            }
+        },
+        "newTask": {
+            "title": "Nowe zadanie"
+        },
+        "switch": {
+            "enableReminder": {
+                "label": "Włącz przypomnienie"
+            }
+        },
+        "checkbox": {
+            "allDay": {
+                "label": "Przypominaj mi podczas każdego logowania w trakcie dnia"
             }
         }
     },
@@ -583,14 +377,54 @@
         "details": {
             "description": "Opis",
             "priority": "Priorytet",
-            "reminder": "Przypomnienie"
-        }
+            "reminder": "Przypomnienie",
+            "creationDate": "Data stworzenia"
+        },
+        "allTasks": [
+            {
+                "message": "Kliknij przycisk \"NOWY\", aby stworzyć zadanie.",
+                "title": "Rozpocznij organizację Twojego dnia."
+            },
+            {
+                "message": "Możesz stworzyć max. 200 zadań.",
+                "title": "Kliknij przycisk \"NOWY\", aby stworzyć zadanie."
+            },
+            {
+                "title": "Kliknij przycisk \"NOWY\", aby stworzyć zadanie i rozpocząć organizację Twoich aktywności."
+            }
+        ],
+        "allTasks_limitReached": [
+            {
+                "message": "Aby stworzyć nowe zadanie, musisz najpierw ukończyć już istniejące.",
+                "title": "Osiągnąłeś max. ilość zadań."
+            }
+        ]
     },
     "task": {
         "priority_high": "Wysoki",
         "priority_low": "Niski",
-        "priority_medium": "Średnie",
+        "priority_medium": "Średni",
         "status_complete": "Ukończono",
         "status_open": "Otwórz"
+    },
+    "secondaryBar": {
+        "allTasks": "Wszystkie zadania"
+    },
+    "snackbar": {
+        "completeTask": "Zadanie \"{{taskTitle}}\" zostało ukończone",
+        "tasksLimitReached": "Osiągnąłeś liczbę 200 zadań. Aby stworzyć ich więcej, ukończ najpierw istniejące zadania.",
+        "restoreTask": "Zadanie zostało przywrócone w folderze wszystkich zadań"
+    },
+    "tasksListItem": {
+        "reminder": {
+            "remindMeOn": "Przypomnij mi o",
+            "doNotRemindMe": "Nie przypominaj"
+        }
+    },
+    "newTaskBoard": {
+        "banner": {
+            "limitReached": "Osiągnąłeś liczbę 200 zadań. Aby stworzyć ich więcej, ukończ najpierw istniejące zadania.",
+            "lastTask": "To ostatnie zadanie, które możesz stworzyć. Aby stworzyć więcej, ukończ najpierw istniejące zadania."
+        }
     }
 }
