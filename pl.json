@@ -1,301 +1,169 @@
 {
     "timezone": {
-        "europe_moscow": "{{value}} Moskwa, St. Petersburg, Wołgograd (RTZ 2)",
         "pacific_bougainville": "{{value}} Standardowy Czas Bouganville",
-        "africa_nairobi": "{{value}} Nairobi",
         "america_asuncion": "{{value}} Asuncion",
-        "america_cuiaba": "{{value}} Cuiaba",
         "america_indiana_indianapolis": "{{value}} Indiana (Wschód)",
-        "america_punta_arenas": "{{value}} Punta Arenas",
         "asia_amman": "{{value}} Jordania",
-        "asia_damascus": "{{value}} Damaszek",
         "asia_kamchatka": "{{value}} Anadyr, Pietropawłowsk Kamczacki (RTZ 11)",
-        "asia_muscat": "{{value}} Abu Dabi, Maskat",
         "asia_srednekolymsk": "{{value}} Czokurdach (RTZ 10)",
-        "asia_vladivostok": "{{value}} Władywostok, Magadan (RTZ 9)",
         "australia_adelaide": "{{value}} Adelaide",
-        "etc_gmt+12": "{{value}} Linia zmiany daty",
-        "pacific_fiji": "{{value}} Fidżi",
-        "pacific_tongatapu": "{{value}} Nuku'alofa"
+        "pacific_fiji": "{{value}} Fidżi"
     },
     "buckets": {
         "connection": {
             "arn_name": "Arn / Nazwa"
         },
-        "summary": {
-            "access_key": "Klucz dostępu"
-        },
         "alibaba_regions": {
             "ap_northeast_1": "Japonia (Tokyo)",
-            "cn_hangzhou": "Chiny (Hangzhou)",
             "me_east_1": "ZEA Dubaj"
         },
         "amazon_regions": {
-            "ap_southeast_2": "Azja Pacyfik (Sydney)",
-            "govcloud": "AWS GovCloud (USA)",
-            "af_south_1": "Afryka (Cape Town)"
+            "govcloud": "AWS GovCloud (USA)"
         },
         "s3_types": {
-            "amazone_web_service_s3": "Amazon Web Service S3",
-            "minio": "Minio"
+            "amazone_web_service_s3": "Amazon Web Service S3"
         }
     },
     "core": {
         "subscription": {
             "features": "Rozwiń",
-            "modal": {
-                "warning": "Próbujesz deaktywować aktualny token. Jego deaktywacja wyłączy wszystkie włączone funkcje."
-            },
             "order_id": "ID zamówienia"
         }
     },
     "domain": {
-        "authentication": "Uwierzytelnianie",
         "many_domain_info_msg": "Ale dużo domen! Którą z nich chcesz zobaczyć? Aby filtrować, zacznij wpisywać.",
-        "mail_server": "Serwer poczty",
         "max_result_return_gal_search": "Max. liczba wyników pokazywanych przy wyszukiwaniu GLA",
-        "certificate_saved": "Certyfikaty zostały zapisane",
         "unit_measure_hours": "Godziny"
     },
     "label": {
-        "accounts": "Konta",
         "app_name": "Zadania",
-        "external": "Zewnętrzne",
         "of": "z",
-        "status": "status",
         "certificate": "Certyfikat",
-        "filter": "Filtr",
         "automatically_add_forwarded_invites_to_calendar": "Automatycznie dodawaj do kalendarza przekazane dalej zaproszenia",
-        "address": "Adres",
         "details": "Szczegóły",
-        "general_Settings": "Ustawienia ogólne",
         "mailbox_quota": "Limit przestrzeni dla skrzynki pocztowej",
-        "out_of_office_cache_lifetime": "Okres życia pamięci cache podczas Poza biurem",
         "save_and_leave": "Zapisz i opuść",
-        "time_zone": "Strefa czasowa",
         "volumes": "Woluminy",
-        "cos": "COS",
         "location": "Lokalizacja",
-        "signatures": "Podpisy",
         "search_dot": "Wyszukaj…",
-        "your_auth_method_is": "Metoda uwierzytelniania",
         "viewed_name_auto_fill": "Wyświetlana nazwa (automatyczne uzupełnianie)",
-        "utility_view3": "Testuj widok praktyczny 3",
         "this_list_is_member_of": "Ta lista to część",
-        "something_wrong_error_msg": "Coś poszło nie tak. Spróbuj ponownie.",
         "secret_key": "Tajny klucz",
-        "search_base": "Podstawowe wyszukiwanie",
         "quota_used": "Limit przestrzeni / użyta przestrzeń",
-        "no_virtual_host_msg": "Nie ma tutaj żadnych wirtualnych hostów.",
         "name_of_signature": "Nazwa podpisu",
-        "main_view": "To jest widok",
         "log": "Dziennik",
-        "i_am_looking_for_member": "Szukam członka…",
         "force_delete": "Wymuś usunięcie",
-        "domain_status": "Status domeny",
         "delete_domain_error_msg": "Usuwasz {{domainName}}. Czy na pewno chcesz usunąć {{domainName}}?",
-        "default_settings": "Domyślne ustawienia",
         "create_new_domain": "Stwórz nową domenę",
-        "cos_name": "Nazwa COS",
         "certificates": "Certyfikaty",
-        "bucket_need_help_button": "POTRZEBUJESZ POMOCY?",
         "activate_and_update": "Aktywuj i zaktualizuj",
-        "auth_method": "Metoda uwierzytelniania",
         "button_delete": "USUŃ",
-        "conversation": "Konwersacja",
         "domain": "Domena",
-        "list_name": "Nazwa listy",
         "prefix": "Prefiks",
-        "use_last_available_status": "Używaj ostatniego dostępnego statusu",
         "volume_name": "Nazwa woluminu",
-        "week_day": {
-            "thursday": "Czwartek"
-        },
         "volume_max_quota_allowed": "Max. dozwolony limit przestrzeni",
-        "the_has_been_created_success": "{{name}} zostało stworzone pomyślnie",
         "sending_mails": "Wysyłanie e-maili",
-        "out_of_office_message": "Wiadomość Poza biurem",
         "new_config": "KONFIGURACJA",
-        "main_settings": "Główne ustawienia",
         "i_want_to_set_signature": "Chcę ustawić podpis",
-        "filter_account_list": "Filtruj listę kont",
         "deletion_date": "Data usunięcia",
-        "config": "Konfiguracja",
         "appointments_default_duration": "Domyślna długość trwania spotkania",
-        "accounts_that_are_owners": "Konta, które są właścicielami list dystrybucyjnych",
         "deleting_account_content_2": "Usunięcie konta TRWALE usunie wszystkie jego dane. ",
-        "external_ldap_server": "external-ldap-server",
         "owners_description": "Właściciele mogą zarządzać członkami list dystrybucyjnych (dodawanie i usuwanie e-maili) i edytować jej opcje.",
-        "there_are_not_owner_here": "Nie ma żadnych właścicieli.",
         "volume_created": "Wolumin został stworzony pomyślnie",
-        "detail_error": "{{name}}",
         "configuration_lbl": "Konfiguracja",
-        "are_you_sure_delete_distribution_list": "Czy na pewno chcesz usunąć <bold>{{name}}</bold>?",
         "on_startup_only": "Tylko przy uruchamianiu",
-        "dl_delete_successfull": "{{name}} zostało usunięte",
         "device_id": "ID urządzenia",
-        "mobile_password": "Hasło Mobilne",
         "title": "Tytuł",
-        "rest_device_warning_msg_1": "Wyczyszczenie urządzenia przywróci je do ustawień fabrycznych. Czy na pewno chcesz kontynuować? ",
         "admin_panel": "Panel administracyjny",
-        "close_the_resource": "Zamknij zasób",
         "destination": "Cel",
-        "favicon_description": "Wklej URL ikonki w karcie przeglądarki (favicon) dla ekranu logowania. Użyj pliku ICO, rozdzielczość 16x16 pikseli.",
         "link_button": "LINK",
-        "migrate": "Migruj",
         "owners_settings_lbl": "Ustawienia właścicieli",
-        "reset_theme_content_2": "Jeśli klikniesz TAK, wszystkie dane zostana utracone.",
         "storage_centralized": "Chcę, żeby ta pamięć była zcentralizowana",
-        "will_be_centralized_in_helptext": "Będzie zcentralizowane w",
         "bucket_create_button": "STWÓRZ",
-        "verify": "Zweryfikuj",
         "Aliases": "Aliasy",
-        "domain_certificate": "Certyfikat domeny",
         "load_you_cert_file": "Prześlij plik z certyfikatem",
-        "type_an_account_add_senders_list": "Wprowadź adres e-mail, aby nadać mu uprawnienia nadawcy",
         "general_options": "Ustawienia ogólne",
-        "cancel_operations_message": "Czy na pewno chcesz ANULOWAĆ tę operację? <br /> Klikając ANULUJ OPERACJĘ, zostanie ona <br /> usunięta z kolejki operacji.",
         "cancel_operations_msg": "Czy na pewno chcesz ANULOWAĆ tę operację? <br /> Po kliknięciu ANULUJ OPERACJĘ, zostanie ona usunięta z kolejki operacji.",
-        "stop_operations_message": "Czy na pewno chcesz ZATRZYMAĆ tę operację? <br /> Po kliknięciu ZATRZYMAJ OPERACJĘ zostanie ona zatrzymana i <br /> usunięta z kolejki operacji.",
         "volume_created_msg": "Wolumin został stworzony",
-        "contacts": "Kontakty",
         "backup_primarybar_tooltip": "Zarządzaj swoimi <bold>usługami kopii zapasowej, zobacz ich status, listę serwerów lub zaimportuj istniejącą kopię zapasową.</bold>",
-        "mobile_app": "Aplikacja mobilna",
         "sort_by_percentage": "Sortuj wg udziału",
-        "distribution_list": "Lista dystrybucyjna",
         "allow_unsecure": "Zezwalaj na niezabezpieczone",
-        "changes_save_success_msg": "Zmiany zostały zapisane!",
         "delegate_send_settings": "Deleguj ustawienia wysyłania",
-        "destroy_account_button": "TAK, USUŃ",
         "frequency_value_also_updated": "Częstotliwość aktualizacji GLA została zaktualizowana",
-        "ldap_search_base": "Baza wyszukiwania LDAP",
         "privacy_lbl": "<bold>Prywatność</bold>",
-        "service_url_copied": "URL usługi zostało skopiowane",
         "you_have_deleted_the_configuration": "Usunąłeś konfigurację",
-        "keep_it_button": "NIE, ZACHOWAJ JE",
         "gal_update_frequencey_value": "Częstotliwość aktualizacji GLA",
         "new": "Nowe zadanie"
     },
     "backup": {
-        "keep_delted_items_backup": "Zachowuj usunięte pozycje w kopii zapasowej",
         "threads_for_items": "Wątki dla elementów",
-        "latency_high_threshold": "Max. próg opóźnienia",
         "data_retention_policies": "Polityka przechowywania danych",
-        "range": "Jednostka czasu",
         "flash_metadata_in_the_disk_at_every_save": "Aktualizuj metadane na dysku przy każdym zapisie",
-        "keep_deleted_account_in_the_backup": "Zachowuj usunięte konto w kopii zapasowej",
         "running": "działa",
-        "the_service_is_stopped": "Usługa jest zatrzymana",
         "bucket_configuration": "Konfiguracja bucketa"
     },
     "cos": {
-        "contacts_options": "Opcje kontaktów",
         "general_features": "Funkcje ogólne",
-        "maximum_number_of_items_to_display_per_page": "Max. liczba elementów wyświetlanych na stronie",
         "show_selection_checkbox_for_selecting_email_contact_voicemail_items_in_a_list_view_for_batch_operations": "Pokaż pole wyboru zaznaczania wiadomości e-mail, kontaktów, wiadomości głosowych w widoku listy na potrzeby operacji wsadowych",
-        "send_read_receipts": "Wysyłaj potwierdzenia przeczytania",
         "time_to_lockout_account": "Czas blokady konta",
-        "advanced_search": "Zaawansowane wyszukiwanie",
         "default_view": {
             "day": "Widok dnia"
         },
-        "email_retention_policy": "Polityka przechowywania wiadomości",
         "mail": "Skrzynka pocztowa",
-        "minimum_mail_polling_interval": "Min. interwał sprawdzania wiadomości",
         "number_of_consecutive_failed_login_allowed": "Liczba dozwolonych kolejnych nieudanych logowań",
-        "quotas": "Limity przestrzeni",
         "use_ical_delegation_model_for_shared_calendars": "Używaj modelu delegacji iCal dla udostępnionych kalendarzy",
-        "password_set_to_use_external_authentication_information_msg": "Te ustawienia nie mają wpływu na hasła ustawione przez użytkowników w domenach, które używają zewnętrznego uwierzytelniania",
         "group_calender": "Zaawansowany kalendarz",
-        "disabling_pool": "Wyłączanie puli",
-        "allow_sending_cancellation_mail": "Zezwalaj na wysyłanie e-maili o anulowaniu",
-        "chats": "Czaty"
+        "allow_sending_cancellation_mail": "Zezwalaj na wysyłanie e-maili o anulowaniu"
     },
     "locale": {
         "label_russian": "Rosyjski - {{value}}",
-        "spanish": "Hiszpański",
-        "hindi": "Hindi",
-        "label_hindi": "Hindi - {{value}}"
+        "hindi": "Hindi"
     },
     "select_section_from_left_menu": "Wybierz sekcję z menu po lewej stronie",
-    "log": "Dziennik",
     "account": {
         "new": {
             "create_otp_wizard": "Stwórz hasło OTP"
         }
     },
     "account_details": {
-        "contact": "Kontakty",
         "general": "Ogólne",
-        "saved_searches": "Zapisane wyszukiwania",
         "view_mail_as_html": "Wyświetlaj e-maile jako HTML",
-        "sms_reminder": "Powiadomienia SMS",
         "min_new_check_interval_value": "Wartość",
-        "forwarding_addresses_hidden_from_the_user": "Adresy przekazywania dalej ukryte przed użytkownikiem",
         "distribution_list_folder": "Folder listy dystrybucyjnej",
-        "audible_reminder_notification": "Dźwiękowe przypomnienie",
         "send_the_otp_to": "Wysyłaj hasło OTP do",
-        "manage_aliases": "ZARZĄDZAJ ALIASEM",
         "read_mails_only": "Tylko wyświetlanie e-maili (brak uprawnień do wysyłania e-maili)",
-        "an_existing_group": "Istniejąca grupa",
         "search_here_for_an_account": "Wyszukaj konto",
-        "sending_options": "Ustawienia wysyłania",
         "who_will_be_delegates": "Które osoby będą pełnomocnikami?",
-        "status": "Status",
         "i_have_copied_the_password": "SKOPIOWAŁEM HASŁO",
-        "start_typing_account": "Zacznij wpisywać konto lub grupę, aby nadać im uprawnienia",
         "services_passphrase": "Hasło usług"
-    },
-    "connection": {
-        "access_key": "Klucz dostępu"
     },
     "volume": {
         "server_list_header": {
             "description": "Opis"
         },
-        "volume_allocation_list": {
-            "centralized": "Zcentralizowane"
-        },
         "volume_config_header": {
             "indexer": "Indeksowanie"
-        },
-        "volume_indexer_header": {
-            "current": "Aktualne"
         },
         "secondary_helperText": "Drugorzędny"
     },
     "hsm": {
-        "contact": "Kontakty",
         "document": "Dokument",
-        "items": "Pozycje",
         "new_policy_summary": "Podsumowanie nowej polityki",
-        "select_volumes": "Wybierz woluminy",
         "secondry": "Drugorzędny",
-        "copy_hsm_policy_from_clipboard_msg": "Jeśli nie jesteś pewny, możesz skopiować ciąg polityki do schowka i przywrócić ją później.",
-        "name_hsm_policies": "Polityki HSM serwera {{serverName}}",
-        "smaller_size": "Mniejsze (Rozmiar)"
+        "name_hsm_policies": "Polityki HSM serwera {{serverName}}"
     },
     "select_bucket_or_create_new_bucket_helperText": "Wygląda na to, że nie ustawiiono typu bucketa.\n\t\t\t\t\t\t\t\t\tKliknij w przycisk \"NOWY BUCKET\", aby stworzyć nowy.",
-    "dashboard": {
-        "new_notifications": "Nowe powiadomienia"
-    },
     "notification": {
-        "manage": "Zarządzaj",
-        "notification_mark_read_successfully": "Powiadomienie zostało oznaczone jako przeczytane"
+        "manage": "Zarządzaj"
     },
     "virtual_hosts": {
         "load_and_verify_certificate": "Prześlij i zweryfikuj certyfikat"
     },
     "operations": {
         "label": {
-            "Deep": "Głęboki",
             "operation_type": "Typ operacji"
         },
-        "operations_list_header": {
-            "operation": "Operacja"
-        },
-        "cancel_opearation_btn": "ANULUJ OPERACJĘ",
-        "stopping_operation_model_title": "Zatrzymujesz operację {{OperationName}}"
+        "cancel_opearation_btn": "ANULUJ OPERACJĘ"
     },
     "modal": {
         "close": "Zamknij",
@@ -378,7 +246,7 @@
             "description": "Opis",
             "priority": "Priorytet",
             "reminder": "Przypomnienie",
-            "creationDate": "Data stworzenia"
+            "creationDate": "Data utworzenia"
         },
         "allTasks": [
             {
