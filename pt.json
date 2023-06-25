@@ -85,7 +85,7 @@
                 "title": "Comece a organizar o seu dia."
             },
             {
-                "message": "É possível criar até 200 tarefas.",
+                "message": "Pode criar até 200 tarefas.",
                 "title": "Clique em \"NOVA\" para criar uma tarefa."
             },
             {
@@ -101,7 +101,7 @@
     },
     "label": {
         "app_name": "Tarefas",
-        "new": "Nova tarefa"
+        "new": "Nova Tarefa"
     },
     "modal": {
         "close": "Fechar",
@@ -124,7 +124,7 @@
     },
     "snackbar": {
         "completeTask": "A Tarefa \"{{taskTitle}}\" foi concluida",
-        "restoreTask": "Tarefa restaurada na pasta \"Todas as tarefas\"",
+        "restoreTask": "Tarefa recuperada na pasta \"Todas as tarefas\"",
         "tasksLimitReached": "Atingiu as 200 Tarefas. Para criar mais, complete as Tarefas anteriores."
     },
     "tasksListItem": {
