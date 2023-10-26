@@ -1,6 +1,7 @@
 {
     "action": {
-        "edit": "Szerkesztés"
+        "edit": "Szerkesztés",
+        "delete": "Törlés"
     },
     "board": {
         "label": {
