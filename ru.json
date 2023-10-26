@@ -2,7 +2,8 @@
     "action": {
         "edit": "Редактировать",
         "undo": "Отменить",
-        "complete": "Выполнено"
+        "complete": "Выполнено",
+        "delete": "Удалить"
     },
     "displayer": {
         "details": {
@@ -111,6 +112,12 @@
             "title": "Напоминания о задачах",
             "completeAll": "Выполнить все",
             "undoAll": "Отменить все"
+        },
+        "delete": {
+            "button": {
+                "confirm": "Удалить навсегда"
+            },
+            "header": "Это действие необратимо"
         }
     },
     "secondaryBar": {
