@@ -1,29 +1,4 @@
 {
-    "label": {
-        "bucket_done_button": "انجام",
-        "details": "جزئیات",
-        "search": "جستجو",
-        "cancel": "لغو",
-        "purge": "پاکسازی",
-        "date": "تاریخ"
-    },
-    "domain": {
-        "theme": "پوسته‌ها"
-    },
-    "hsm": {
-        "details": "جزئیات"
-    },
-    "volume": {
-        "server_list_header": {
-            "description": "توضیح"
-        }
-    },
-    "dashboard": {
-        "description": "توضیح"
-    },
-    "operations": {
-        "details": "جزئیات"
-    },
     "action": {
         "edit": "ویرایش"
     },
