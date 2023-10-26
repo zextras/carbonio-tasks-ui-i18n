@@ -3,11 +3,17 @@
         "app_name": "Gestionare"
     },
     "modal": {
-        "close": "Inchide"
+        "close": "Inchide",
+        "delete": {
+            "button": {
+                "confirm": "Sterge permanent"
+            }
+        }
     },
     "action": {
         "edit": "Editeaza",
-        "undo": "Anulare"
+        "undo": "Anulare",
+        "delete": "Ştergere"
     },
     "board": {
         "label": {
