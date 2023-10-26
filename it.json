@@ -68,7 +68,13 @@
             "remindMeOn": "Ricordamelo il",
             "title": "Promemoria delle attività"
         },
-        "close": "Chiudi"
+        "close": "Chiudi",
+        "delete": {
+            "button": {
+                "confirm": "Elimina definitivamente"
+            },
+            "header": "L'azione è irreversibile"
+        }
     },
     "task": {
         "priority_high": "Alta",
@@ -80,7 +86,8 @@
     "action": {
         "edit": "Modifica",
         "undo": "Annulla",
-        "complete": "Completa"
+        "complete": "Completa",
+        "delete": "Elimina"
     },
     "displayer": {
         "details": {
