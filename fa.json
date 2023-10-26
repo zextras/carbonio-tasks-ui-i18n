@@ -1,6 +1,7 @@
 {
     "action": {
-        "edit": "ویرایش"
+        "edit": "ویرایش",
+        "delete": "حذف"
     },
     "board": {
         "label": {
@@ -15,5 +16,12 @@
     },
     "task": {
         "status_open": "باز کردن"
+    },
+    "modal": {
+        "delete": {
+            "button": {
+                "confirm": "حذف دائم"
+            }
+        }
     }
 }
