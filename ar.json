@@ -1,6 +1,7 @@
 {
     "action": {
-        "edit": "تحرير"
+        "edit": "تحرير",
+        "delete": "حذف"
     },
     "board": {
         "label": {
