@@ -11,12 +11,19 @@
             "title": "Przypomnienia o zadaniach",
             "remindMeOn": "Przypomnij mi o",
             "undoAll": "Cofnij wszystko"
+        },
+        "delete": {
+            "button": {
+                "confirm": "Trwale usuń"
+            },
+            "header": "Tej czynności nie da się odwrócić"
         }
     },
     "action": {
         "complete": "Ukończ",
         "edit": "Edytuj",
-        "undo": "Cofnij"
+        "undo": "Cofnij",
+        "delete": "Usuń"
     },
     "board": {
         "confirmButton": {
