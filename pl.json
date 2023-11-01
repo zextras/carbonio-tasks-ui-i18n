@@ -16,14 +16,16 @@
             "button": {
                 "confirm": "Trwale usuń"
             },
-            "header": "Tej czynności nie da się odwrócić"
+            "header": "Tej czynności nie da się odwrócić",
+            "body": "Trwale usuniesz to zadanie. Nie będziesz już w stanie odzyskać tego zadania. Tej czynności nie da się cofnąć."
         }
     },
     "action": {
         "complete": "Ukończ",
         "edit": "Edytuj",
         "undo": "Cofnij",
-        "delete": "Usuń"
+        "delete": "Usuń",
+        "uncomplete": "Cofnij ukończenie"
     },
     "board": {
         "confirmButton": {
@@ -108,7 +110,7 @@
         ],
         "allTasks_limitReached": [
             {
-                "message": "Aby stworzyć nowe zadanie, musisz najpierw ukończyć już istniejące.",
+                "message": "Usuń swoje poprzednie zadania, aby stworzyć nowe.",
                 "title": "Osiągnąłeś max. ilość zadań."
             }
         ]
@@ -125,8 +127,10 @@
     },
     "snackbar": {
         "completeTask": "Zadanie \"{{taskTitle}}\" zostało ukończone",
-        "tasksLimitReached": "Osiągnąłeś liczbę 200 zadań. Aby stworzyć ich więcej, ukończ najpierw istniejące zadania.",
-        "restoreTask": "Zadanie zostało przywrócone w folderze wszystkich zadań"
+        "tasksLimitReached": "Osiągnąłeś liczbę 200 zadań. Aby stworzyć ich więcej, usuń najpierw istniejące zadania.",
+        "restoreTask": "Zadanie zostało przywrócone w folderze wszystkich zadań",
+        "permanentlyDeletedTask": "Zadanie zostało trwale usunięte",
+        "uncompleteTask": "Ukończenie zadania \"{{taskTitle}}\" zostało cofnięte"
     },
     "tasksListItem": {
         "reminder": {
@@ -136,8 +140,8 @@
     },
     "newTaskBoard": {
         "banner": {
-            "limitReached": "Osiągnąłeś liczbę 200 zadań. Aby stworzyć ich więcej, ukończ najpierw istniejące zadania.",
-            "lastTask": "To ostatnie zadanie, które możesz stworzyć. Aby stworzyć więcej, ukończ najpierw istniejące zadania."
+            "limitReached": "Osiągnąłeś liczbę 200 zadań. Aby stworzyć ich więcej, usuń najpierw istniejące zadania.",
+            "lastTask": "To ostatnie zadanie, które możesz stworzyć. Aby stworzyć więcej, usuń najpierw istniejące zadania."
         }
     }
 }
