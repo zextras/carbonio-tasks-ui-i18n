@@ -141,7 +141,8 @@
     "tasksListItem": {
         "reminder": {
             "doNotRemindMe": "Do not remind me",
-            "remindMeOn": "Remind me on"
+            "remindMeOn": "Remind me on",
+            "zzzzzzzzzfigmatest": "I'm a test"
         }
     }
 }
