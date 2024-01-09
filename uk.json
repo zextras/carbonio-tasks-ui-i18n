@@ -1,1 +1,17 @@
-{}
+{
+    "action": {
+        "complete": "Завершено",
+        "uncomplete": "Незавершено",
+        "undo": "Відмінити"
+    },
+    "board": {
+        "checkbox": {
+            "allDay": {
+                "label": "Нагадувати при кожному вході протягом дня"
+            }
+        },
+        "confirmButton": {
+            "create": "створити"
+        }
+    }
+}
