@@ -2,7 +2,9 @@
     "action": {
         "complete": "Завершено",
         "uncomplete": "Незавершено",
-        "undo": "Відмінити"
+        "undo": "Відмінити",
+        "delete": "Видалити",
+        "edit": "Редагувати"
     },
     "board": {
         "checkbox": {
@@ -12,6 +14,21 @@
         },
         "confirmButton": {
             "create": "створити"
+        },
+        "label": {
+            "description": "Опис"
+        }
+    },
+    "modal": {
+        "delete": {
+            "button": {
+                "confirm": "Видалити назавжди"
+            }
+        }
+    },
+    "displayer": {
+        "details": {
+            "description": "Опис"
         }
     }
 }
