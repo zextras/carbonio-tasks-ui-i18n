@@ -17,6 +17,24 @@
         },
         "label": {
             "description": "Опис"
+        },
+        "dateTimePicker": {
+            "reminder": {
+                "label": "Нагадування"
+            }
+        },
+        "editTask": {
+            "title": "Редагувати завдання"
+        },
+        "input": {
+            "description": {
+                "error": {
+                    "label": "Максимальна довжина - 1024 символів"
+                }
+            },
+            "title": {
+                "label": "Назва*"
+            }
         }
     },
     "modal": {
