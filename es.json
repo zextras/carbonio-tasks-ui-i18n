@@ -96,7 +96,7 @@
         "allTasks_limitReached": [
             {
                 "title": "Has alcanzado el número máximo de tareas.",
-                "message": "Para crear una, completa algunas tareas existentes."
+                "message": "Elimina tus tareas anteriores para crear más."
             }
         ]
     },
