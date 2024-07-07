@@ -3,7 +3,8 @@
         "edit": "Edit",
         "undo": "Urungkan",
         "complete": "Selesai",
-        "delete": "Hapus"
+        "delete": "Hapus",
+        "uncomplete": "Belum selesai"
     },
     "task": {
         "priority_high": "Tinggi",
@@ -95,7 +96,7 @@
         ],
         "allTasks_limitReached": [
             {
-                "message": "Untuk membuat yang baru, selesaikan beberapa tugas yang ada.",
+                "message": "Untuk membuat lebih banyak, hapus tugas Anda sebelumnya.",
                 "title": "Anda telah mencapai jumlah tugas maksimum."
             }
         ]
@@ -117,13 +118,14 @@
             "button": {
                 "confirm": "Hapus secara permanen"
             },
-            "header": "Tindakan ini tidak dapat dibatalkan"
+            "header": "Tindakan ini tidak dapat dibatalkan",
+            "body": "Anda akan menghapus tugas ini secara permanen. Anda tidak dapat memulihkan tugas ini. Tindakan ini tidak dapat dibatalkan."
         }
     },
     "newTaskBoard": {
         "banner": {
-            "limitReached": "Anda telah mencapai 200 tugas. Untuk membuat lebih banyak, selesaikan tugas sebelumnya.",
-            "lastTask": "Ini adalah tugas terakhir yang dapat Anda buat. Untuk membuat lebih banyak, selesaikan tugas sebelumnya."
+            "limitReached": "Anda telah mencapai 200 tugas. Untuk membuat lebih banyak, hapus tugas sebelumnya.",
+            "lastTask": "Ini adalah tugas terakhir yang dapat Anda buat. Untuk membuat lebih banyak, hapus tugas sebelumnya."
         }
     },
     "secondaryBar": {
@@ -132,7 +134,9 @@
     "snackbar": {
         "completeTask": "Tugas \"{{taskTitle}}\" selesai",
         "restoreTask": "Tugas dipulihkan di Semua folder tugas",
-        "tasksLimitReached": "Anda telah mencapai 200 tugas. Untuk membuat lebih banyak, selesaikan tugas sebelumnya."
+        "tasksLimitReached": "Anda telah mencapai 200 tugas. Untuk membuat lebih banyak, hapus tugas sebelumnya.",
+        "permanentlyDeletedTask": "Tugas dihapus secara permanen",
+        "uncompleteTask": "Tugas \"{{taskTitle}}\" belum selesai"
     },
     "tasksListItem": {
         "reminder": {
