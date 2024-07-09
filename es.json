@@ -3,7 +3,8 @@
         "edit": "Editar",
         "undo": "Deshacer",
         "complete": "Completar",
-        "delete": "Eliminar"
+        "delete": "Eliminar",
+        "uncomplete": "Incompleto"
     },
     "board": {
         "label": {
@@ -117,13 +118,14 @@
             "button": {
                 "confirm": "Eliminar permanentemente"
             },
-            "header": "La acción no se puede deshacer"
+            "header": "La acción no se puede deshacer",
+            "body": "Eliminarás permanentemente esta tarea. No podrás recuperar esta tarea nunca. Esta acción es irreversible."
         }
     },
     "newTaskBoard": {
         "banner": {
-            "limitReached": "Has alcanzado las 200 tareas. Para crear más completa algunas tareas anteriores.",
-            "lastTask": "Esta es la última tarea que puedes crear. Para crear más completa las tareas anteriores."
+            "limitReached": "Has alcanzado tus 200 tareas. Elimina tus tareas anteriores para crear más.",
+            "lastTask": "Esta es la última tarea que puedes crear. Borra tus tareas anteriores para crear más."
         }
     },
     "secondaryBar": {
@@ -132,7 +134,9 @@
     "snackbar": {
         "completeTask": "Tarea \"{{taskTitle}}\" completada",
         "restoreTask": "Tarea restaurada en carpeta \"Todas las tareas\"",
-        "tasksLimitReached": "Has alcanzado las 200 tareas. Para crear más completa algunas tareas anteriores."
+        "tasksLimitReached": "Ya has alcanzado las 200 tareas. Borra alguna de tus tareas anteriores.",
+        "permanentlyDeletedTask": "Tarea borrada permanentemente",
+        "uncompleteTask": "Tarea \"{{taskTitle}}\" no completada"
     },
     "tasksListItem": {
         "reminder": {
