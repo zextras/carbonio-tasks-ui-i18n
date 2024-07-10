@@ -50,7 +50,7 @@
         },
         "input": {
             "title": {
-                "label": "หัวข้อ*"
+                "label": "ชื่อเรื่อง*"
             },
             "description": {
                 "error": {
