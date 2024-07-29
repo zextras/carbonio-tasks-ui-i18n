@@ -103,7 +103,8 @@
     },
     "label": {
         "app_name": "Tâches",
-        "new": "Nouvelle Tâche"
+        "new": "Nouvelle Tâche",
+        "app_description": "Module Taches"
     },
     "modal": {
         "close": "Fermer",
