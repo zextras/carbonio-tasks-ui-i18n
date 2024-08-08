@@ -28,7 +28,8 @@
     },
     "label": {
         "app_name": "Görevler",
-        "new": "Yeni Görev"
+        "new": "Yeni Görev",
+        "app_description": "Görevler modülü"
     },
     "modal": {
         "close": "Kapat",
