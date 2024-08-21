@@ -120,8 +120,7 @@
     },
     "label": {
         "app_name": "Impegni",
-        "new": "Nuova attività",
-        "app_description": "Modulo Impegni"
+        "new": "Nuova attività"
     },
     "secondaryBar": {
         "allTasks": "Tutte le attività"
