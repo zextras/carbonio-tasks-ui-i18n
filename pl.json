@@ -1,8 +1,7 @@
 {
     "label": {
         "app_name": "Zadania",
-        "new": "Nowe zadanie",
-        "app_description": "Moduł Zadania"
+        "new": "Nowe zadanie"
     },
     "modal": {
         "close": "Zamknij",
