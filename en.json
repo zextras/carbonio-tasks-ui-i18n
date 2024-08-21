@@ -96,8 +96,7 @@
     },
     "label": {
         "app_name": "Tasks",
-        "new": "New Task",
-        "app_description": "Tasks module"
+        "new": "New Task"
     },
     "modal": {
         "close": "Close",
