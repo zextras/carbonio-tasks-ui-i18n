@@ -53,7 +53,7 @@
         },
         "checkbox": {
             "allDay": {
-                "label": "Rappelez-moi à chaque connexion tout au long de la journée"
+                "label": "Rappel à chaque connexion tout au long de la journée"
             }
         },
         "newTask": {
@@ -110,7 +110,7 @@
         "reminder": {
             "dismiss": "Rejeter",
             "completeAll": "Terminer tout",
-            "remindMeOn": "Rappelez-moi sur",
+            "remindMeOn": "Rappel le",
             "title": "Rappel de Tâches",
             "undoAll": "Tout annuler"
         },
@@ -140,8 +140,8 @@
     },
     "tasksListItem": {
         "reminder": {
-            "doNotRemindMe": "Ne pas me le rappeler",
-            "remindMeOn": "Rappelez-moi sur"
+            "doNotRemindMe": "Pas de rappel programmé",
+            "remindMeOn": "Rappel le"
         }
     }
 }
