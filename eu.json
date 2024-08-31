@@ -1,1 +1,104 @@
-{}
+{
+    "action": {
+        "complete": "Osatu",
+        "uncomplete": "Osatu gabe",
+        "undo": "Desegin",
+        "delete": "Ezabatu",
+        "edit": "Editatu"
+    },
+    "board": {
+        "confirmButton": {
+            "create": "sortu",
+            "edit": "editatu"
+        },
+        "dateTimePicker": {
+            "reminder": {
+                "label": "Gogoratzeko mezua"
+            },
+            "description": {
+                "error": {
+                    "label": "Abisuaren aukera gaituta dago, ezarri data eta ordua edo desgaitu abisua"
+                }
+            }
+        },
+        "editTask": {
+            "title": "Editatu Ataza"
+        },
+        "input": {
+            "description": {
+                "error": {
+                    "label": "Gehienez 1024 karaktereko luzera onartzen da"
+                }
+            },
+            "title": {
+                "label": "Izenburua*"
+            }
+        },
+        "label": {
+            "details": "Xehetasunak",
+            "description": "Deskribapena"
+        },
+        "newTask": {
+            "title": "Zeregin berria"
+        },
+        "select": {
+            "priority": {
+                "label": "Lehentasuna"
+            }
+        },
+        "textArea": {
+            "taskDescription": {
+                "label": "Zereginaren deskribapena"
+            },
+            "description": {
+                "error": {
+                    "label": "Gehienez 4096 karaktereko luzera onartzen da"
+                }
+            }
+        },
+        "switch": {
+            "enableReminder": {
+                "label": "Gaitu abisua"
+            }
+        },
+        "checkbox": {
+            "allDay": {
+                "label": "Gogorarazi egunean zehar saio-hasiera guztietan"
+            }
+        }
+    },
+    "displayer": {
+        "allTasks": [
+            {
+                "message": "Egin klik \"BERRIA\" botoian Zeregin bat sortzeko.",
+                "title": "Hasi zure eguna antolatzen."
+            },
+            {
+                "message": "Gehienez 200 zeregin sor ditzakezu.",
+                "title": "Egin klik \"BERRIA\" botoian Zeregin bat sortzeko."
+            },
+            {
+                "title": "Egin klik \"BERRIA\" botoian Zeregin bat sortzeko eta zure jarduerak antolatzen hasi."
+            }
+        ],
+        "details": {
+            "creationDate": "Sortze data",
+            "priority": "Lehentasuna",
+            "reminder": "Gogoratzeko mezua",
+            "description": "Deskribapena"
+        },
+        "allTasks_limitReached": [
+            {
+                "title": "Gehienezko zeregin kopurura iritsi zara.",
+                "message": "Ezabatu zure aurreko zereginak gehiago sortzeko."
+            }
+        ]
+    },
+    "label": {
+        "new": "Zeregin berria",
+        "app_name": "Zereginak"
+    },
+    "modal": {
+        "close": "Itxi"
+    }
+}
