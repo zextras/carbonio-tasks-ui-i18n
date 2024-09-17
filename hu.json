@@ -1,7 +1,7 @@
 {
     "action": {
         "edit": "Szerkesztés",
-        "delete": "Töröl",
+        "delete": "Törlés",
         "complete": "Kész",
         "undo": "Visszavonás",
         "uncomplete": "Befejezetlen"
