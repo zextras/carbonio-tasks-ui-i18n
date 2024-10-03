@@ -99,6 +99,48 @@
         "app_name": "Zereginak"
     },
     "modal": {
-        "close": "Itxi"
+        "close": "Itxi",
+        "delete": {
+            "button": {
+                "confirm": "Ezabatu betiko"
+            },
+            "header": "Ekintza hau atzera-bueltarik gabekoa da",
+            "body": "Zeregin hau behin betiko ezabatuko duzu. Ezin izango dituzu zeregin hauek berreskuratu. Ekintza hau atzeraezina da."
+        },
+        "reminder": {
+            "completeAll": "Osatu guztiak",
+            "dismiss": "Baztertu",
+            "title": "Zereginen abisuak",
+            "undoAll": "Desegin guztiak"
+        }
+    },
+    "newTaskBoard": {
+        "banner": {
+            "lastTask": "Hau da sor dezakezun azken zeregina. Ezabatu zure aurreko zereginak gehiago sortzeko.",
+            "limitReached": "Zure 200 zereginetara iritsi zara. Ezabatu zure aurreko zereginak gehiago sortzeko."
+        }
+    },
+    "secondaryBar": {
+        "allTasks": "Zeregin guztiak"
+    },
+    "snackbar": {
+        "completeTask": "\"{{taskTitle}}\" zeregina osatu da",
+        "permanentlyDeletedTask": "Betiko ezabatu da zeregina",
+        "restoreTask": "Zeregin guztiak ataza guztiak karpetan berreskuratu dira",
+        "uncompleteTask": "\"{{taskTitle}}\" zeregina osatu gabe dago",
+        "tasksLimitReached": "Zure 200 zereginetara iritsi zara. Ezabatu zure aurreko zereginak gehiago sortzeko."
+    },
+    "task": {
+        "priority_high": "Altua",
+        "priority_low": "Baxua",
+        "priority_medium": "Ertaina",
+        "status_complete": "Osatua",
+        "status_open": "Irekia"
+    },
+    "tasksListItem": {
+        "reminder": {
+            "doNotRemindMe": "Ez gogorarazi",
+            "remindMeOn": "Gogorarazi"
+        }
     }
 }
