@@ -143,5 +143,8 @@
             "limitReached": "Osiągnąłeś liczbę 200 zadań. Aby stworzyć ich więcej, usuń najpierw istniejące zadania.",
             "lastTask": "To ostatnie zadanie, które możesz stworzyć. Aby stworzyć więcej, usuń najpierw istniejące zadania."
         }
+    },
+    "list": {
+        "empty": "Wygląda na to, że nic tu nie ma."
     }
 }
