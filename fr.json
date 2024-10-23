@@ -143,5 +143,8 @@
             "doNotRemindMe": "Pas de rappel programmé",
             "remindMeOn": "Rappel le"
         }
+    },
+    "list": {
+        "empty": "Il semble qu'il n'y ai rien ici."
     }
 }
