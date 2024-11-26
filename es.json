@@ -143,5 +143,8 @@
             "doNotRemindMe": "No recordarme",
             "remindMeOn": "Recordarme el"
         }
+    },
+    "list": {
+        "empty": "No hay nada aquí."
     }
 }
