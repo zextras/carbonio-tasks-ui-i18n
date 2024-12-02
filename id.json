@@ -143,5 +143,8 @@
             "doNotRemindMe": "Jangan ingatkan saya",
             "remindMeOn": "Ingatkan saya pada"
         }
+    },
+    "list": {
+        "empty": "Sepertinya tidak ada apa pun di sini."
     }
 }
