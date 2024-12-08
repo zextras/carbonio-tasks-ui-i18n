@@ -1,16 +1,150 @@
 {
     "action": {
         "edit": "تعديل",
-        "delete": "حذف"
+        "delete": "حذف",
+        "complete": "مكتمل",
+        "undo": "تراجع",
+        "uncomplete": "غير مكتمل"
     },
     "board": {
         "label": {
-            "description": "الوصف"
+            "description": "الوصف",
+            "details": "التفاصيل"
+        },
+        "confirmButton": {
+            "create": "أنشأ",
+            "edit": "عدل"
+        },
+        "dateTimePicker": {
+            "reminder": {
+                "label": "التذكير"
+            },
+            "description": {
+                "error": {
+                    "label": "خيار التذكير مفعل ، قم بتعيين التاريخ والوقت له أو قم بتعطيل التذكير"
+                }
+            }
+        },
+        "editTask": {
+            "title": "تعديل المهمة"
+        },
+        "input": {
+            "description": {
+                "error": {
+                    "label": "الحد الأقصى المسموح به هو 1024 حرفًا"
+                }
+            },
+            "title": {
+                "label": "العنوان*"
+            }
+        },
+        "newTask": {
+            "title": "مهمة جديدة"
+        },
+        "select": {
+            "priority": {
+                "label": "الأولوية"
+            }
+        },
+        "switch": {
+            "enableReminder": {
+                "label": "تفعيل التذكير"
+            }
+        },
+        "textArea": {
+            "description": {
+                "error": {
+                    "label": "الحد الأقصى المسموح به هو 4096 حرفًا"
+                }
+            },
+            "taskDescription": {
+                "label": "وصف المهمة"
+            }
+        },
+        "checkbox": {
+            "allDay": {
+                "label": "ذكّرني طوال اليوم عند كل الدخول"
+            }
         }
     },
     "displayer": {
         "details": {
-            "description": "الوصف"
+            "description": "الوصف",
+            "creationDate": "تاريخ الإنشاء",
+            "priority": "أولوية",
+            "reminder": "تذكير"
+        },
+        "allTasks": [
+            {
+                "message": "انقر فوق زر \"جديدة\" لإنشاء مهمة.",
+                "title": "ابدأ بتنظيم يومك."
+            },
+            {
+                "message": "يمكنك إنشاء ما يصل إلى 200 مهمة.",
+                "title": "انقر فوق زر \"جديدة\" لإنشاء مهمة."
+            },
+            {
+                "title": "انقر فوق زر \"جديدة\" لإنشاء مهمة والبدء في تنظيم أنشطتك."
+            }
+        ],
+        "allTasks_limitReached": [
+            {
+                "message": "احذف مهامك السابقة لإنشاء المزيد منها.",
+                "title": "لقد وصلت إلى الحد الأقصى لعدد المهام."
+            }
+        ]
+    },
+    "list": {
+        "empty": "يبدو أنه لا يوجد شيء هنا."
+    },
+    "label": {
+        "new": "مهمة جديدة",
+        "app_name": "المهام"
+    },
+    "modal": {
+        "close": "أغلق",
+        "reminder": {
+            "completeAll": "أكمل كلها",
+            "dismiss": "أبعد",
+            "remindMeOn": "ذكرني",
+            "title": "تذكيرات المهام",
+            "undoAll": "التراجع عن كل شيء"
+        },
+        "delete": {
+            "body": "سيتم حذف هذه المهمة بشكل دائم. لن تتمكن من استعادة هذه المهام بعد الآن. هذا الإجراء لا رجعة فيه.",
+            "button": {
+                "confirm": "حذفها نهائيا"
+            },
+            "header": "لا رجعة في هذا الإجراء"
+        }
+    },
+    "newTaskBoard": {
+        "banner": {
+            "lastTask": "هذه هي المهمة الأخيرة التي يمكنك إنشاؤها. احذف مهامك السابقة لإنشاء المزيد.",
+            "limitReached": "لقد وصلت إلى 200 مهمة. احذف مهامك السابقة لإنشاء المزيد."
+        }
+    },
+    "secondaryBar": {
+        "allTasks": "جميع المهام"
+    },
+    "snackbar": {
+        "tasksLimitReached": "لقد وصلت إلى 200 مهمة. احذف مهامك السابقة لإنشاء المزيد.",
+        "completeTask": "تم إكمال المهمة \"{{taskTitle}}\"",
+        "permanentlyDeletedTask": "تم حذف المهمة بشكل دائم",
+        "restoreTask": "تمت استعادة المهمة في مجلد كافة المهام",
+        "uncompleteTask": "المهمة \"{{taskTitle}}\" غير مكتملة"
+    },
+    "task": {
+        "priority_high": "عالية",
+        "priority_low": "منخفظه",
+        "priority_medium": "متوسطة",
+        "status_complete": "مكتملة",
+        "status_open": "إفتح"
+    },
+    "tasksListItem": {
+        "reminder": {
+            "doNotRemindMe": "لا تذكرني",
+            "remindMeOn": "ذكرني"
         }
     }
 }
