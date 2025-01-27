@@ -1,1 +1,147 @@
-{}
+{
+    "action": {
+        "complete": "Završi",
+        "undo": "Poništi",
+        "uncomplete": "Nepotpun"
+    },
+    "board": {
+        "confirmButton": {
+            "create": "kreiraj",
+            "edit": "uredi"
+        },
+        "dateTimePicker": {
+            "reminder": {
+                "label": "Podsjetnik"
+            },
+            "description": {
+                "error": {
+                    "label": "Opcija podsjetnika je omogućena, postavite datum i vrijeme za nju ili onemogućite podsjetnik"
+                }
+            }
+        },
+        "editTask": {
+            "title": "Uredi zadatak"
+        },
+        "input": {
+            "description": {
+                "error": {
+                    "label": "Maksimalna dopuštena dužina je 1024 znakova"
+                }
+            },
+            "title": {
+                "label": "Naslov*"
+            }
+        },
+        "label": {
+            "details": "Detalji"
+        },
+        "newTask": {
+            "title": "Novi zadatak"
+        },
+        "select": {
+            "priority": {
+                "label": "Prioritet"
+            }
+        },
+        "switch": {
+            "enableReminder": {
+                "label": "Omogući podsjetnik"
+            }
+        },
+        "textArea": {
+            "description": {
+                "error": {
+                    "label": "Maksimalna dopuštena dužina je 4096 znakova"
+                }
+            },
+            "taskDescription": {
+                "label": "Opis zadatka"
+            }
+        },
+        "checkbox": {
+            "allDay": {
+                "label": "Podsjeti me na svaki prijavu tokom dana"
+            }
+        }
+    },
+    "displayer": {
+        "allTasks": [
+            {
+                "message": "Kliknite na dugme \"NOVI\" za kreiranje zadatka.",
+                "title": "Počnite organizirati dan."
+            },
+            {
+                "message": "Možete kreirati do 200 zadataka.",
+                "title": "Kliknite na dugme \"NOVI\" za kreiranje zadatka."
+            },
+            {
+                "title": "Kliknite na dugme \"NOVI\" kako biste kreirali zadatak i počeli organizirati aktivnosti."
+            }
+        ],
+        "allTasks_limitReached": [
+            {
+                "message": "Obrišite prethodne zadatke kako biste kreirali više.",
+                "title": "Dostigli ste maksimalni broj zadataka."
+            }
+        ],
+        "details": {
+            "creationDate": "Datum kreiranja",
+            "description": "Opis",
+            "priority": "Prioritet",
+            "reminder": "Podsjetnik"
+        }
+    },
+    "label": {
+        "app_name": "Zadaci",
+        "new": "Novi zadatak"
+    },
+    "modal": {
+        "close": "Zatvori",
+        "delete": {
+            "button": {
+                "confirm": "Trajno obriši"
+            },
+            "header": "Ova radnja je nepovratna",
+            "body": "Trajno ćete izbrisati ovaj zadatak. Više nećete moći oporaviti ove zadatke. Ova akcija je nepovratna."
+        },
+        "reminder": {
+            "completeAll": "Završi sve",
+            "dismiss": "Odbaci",
+            "undoAll": "Poništi sve",
+            "remindMeOn": "Podsjeti me na",
+            "title": "Podsjetnici zadataka"
+        }
+    },
+    "newTaskBoard": {
+        "banner": {
+            "limitReached": "Dostigli ste 200 zadataka. Obrišite prethodne zadatke kako biste kreirali nove.",
+            "lastTask": "Ovo je posljednji zadatak koji možete kreirati. Obrišite prethodne zadatke kako biste mogli kreirati nove."
+        }
+    },
+    "secondaryBar": {
+        "allTasks": "Svi zadaci"
+    },
+    "snackbar": {
+        "permanentlyDeletedTask": "Zadatak trajno obrisan",
+        "restoreTask": "Zadatak obnovljen u mapi Svi zadaci",
+        "uncompleteTask": "Zadatak \"{{taskTitle}}\" nije dovršen",
+        "tasksLimitReached": "Dostigli ste 200 zadataka. Obrišite prethodne zadatke kako biste kreirali nove.",
+        "completeTask": "Zadatak \"{{taskTitle}}\" završen"
+    },
+    "task": {
+        "priority_high": "Visok",
+        "priority_low": "Nizak",
+        "priority_medium": "Srednji",
+        "status_complete": "Završeno",
+        "status_open": "Otvori"
+    },
+    "tasksListItem": {
+        "reminder": {
+            "doNotRemindMe": "Nemoj me podsjećati",
+            "remindMeOn": "Podsjeti me na"
+        }
+    },
+    "list": {
+        "empty": "Izgleda da ovdje nema ničega."
+    }
+}
