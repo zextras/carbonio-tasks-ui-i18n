@@ -1,5 +1,27 @@
 {
     "action": {
-        "delete": "Izbriši"
+        "delete": "Izbriši",
+        "complete": "Dokončaj",
+        "edit": "Uredi",
+        "uncomplete": "Odznači kot dokončano",
+        "undo": "Razveljavi"
+    },
+    "board": {
+        "confirmButton": {
+            "create": "ustvari",
+            "edit": "uredi"
+        },
+        "dateTimePicker": {
+            "description": {
+                "error": {
+                    "label": "Možnost opomnika je omogočena, nastavite datum in čas ali onemogočite opomnik"
+                }
+            }
+        },
+        "checkbox": {
+            "allDay": {
+                "label": "Opomni me ob vsaki prijavi tekom dneva"
+            }
+        }
     }
 }
