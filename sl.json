@@ -16,12 +16,135 @@
                 "error": {
                     "label": "Možnost opomnika je omogočena, nastavite datum in čas ali onemogočite opomnik"
                 }
+            },
+            "reminder": {
+                "label": "Opomnik"
             }
         },
         "checkbox": {
             "allDay": {
                 "label": "Opomni me ob vsaki prijavi tekom dneva"
             }
+        },
+        "editTask": {
+            "title": "Uredi nalogo"
+        },
+        "input": {
+            "description": {
+                "error": {
+                    "label": "Največja dovoljena dolžina je 1024 znakov"
+                }
+            },
+            "title": {
+                "label": "Naslov*"
+            }
+        },
+        "label": {
+            "description": "Opis",
+            "details": "Podrobnosti"
+        },
+        "newTask": {
+            "title": "Nova naloga"
+        },
+        "switch": {
+            "enableReminder": {
+                "label": "Omogoči opomnik"
+            }
+        },
+        "textArea": {
+            "description": {
+                "error": {
+                    "label": "Največja dovoljena dolžina je 4096 znakov"
+                }
+            },
+            "taskDescription": {
+                "label": "Opis naloge"
+            }
+        },
+        "select": {
+            "priority": {
+                "label": "Pomembnost"
+            }
         }
+    },
+    "displayer": {
+        "allTasks": [
+            {
+                "message": "Kliknite gumb »NOVA« za ustvarjanje naloge.",
+                "title": "Začnite organizirati svoj dan."
+            },
+            {
+                "message": "Ustvarite lahko do 200 nalog.",
+                "title": "Kliknite gumb »NOVA« za ustvarjanje naloge."
+            },
+            {
+                "title": "Kliknite gumb »NOVA« za ustvarjanje naloge in začnite z organizacijo svojih dejavnosti."
+            }
+        ],
+        "allTasks_limitReached": [
+            {
+                "message": "Izbrišite obstoječe naloge za ustvarjanje novih.",
+                "title": "Dosegli ste največje število nalog."
+            }
+        ],
+        "details": {
+            "creationDate": "Datum ustvarjanja",
+            "description": "Opis",
+            "reminder": "Opomnik",
+            "priority": "Pomembnost"
+        }
+    },
+    "label": {
+        "app_name": "Naloge",
+        "new": "Nova naloga"
+    },
+    "modal": {
+        "close": "Zapri",
+        "delete": {
+            "body": "To nalogo boste trajno izbrisali. Obnovitev te naloge ne bo več mogoča. To dejanje je nepovratno.",
+            "button": {
+                "confirm": "Trajno izbriši"
+            },
+            "header": "To dejanje je nepovratno"
+        },
+        "reminder": {
+            "completeAll": "Označi vse kot dokončano",
+            "remindMeOn": "Opomni me na",
+            "title": "Opomniki za naloge",
+            "undoAll": "Razveljavi vse",
+            "dismiss": "Opusti"
+        }
+    },
+    "newTaskBoard": {
+        "banner": {
+            "lastTask": "To je zadnja naloga, ki jo lahko ustvarite. Izbrišite prejšnje naloge za ustvarjanje novih.",
+            "limitReached": "Dosegli ste 200 nalog. Izbrišite prejšnje naloge za ustvarjanje novih."
+        }
+    },
+    "secondaryBar": {
+        "allTasks": "Vse naloge"
+    },
+    "snackbar": {
+        "completeTask": "Naloga \\\"{{taskTitle}}\\\" dokončana",
+        "permanentlyDeletedTask": "Naloga trajno izbrisana",
+        "restoreTask": "Naloga obnovljena v mapo Vse naloge",
+        "tasksLimitReached": "Dosegli ste 200 nalog. Izbrišite prejšnje naloge za ustvarjanje novih.",
+        "uncompleteTask": "Naloga \\\"{{taskTitle}}\\\" ni več označena kot dokončana"
+    },
+    "task": {
+        "priority_high": "Visoka",
+        "priority_low": "Nizka",
+        "priority_medium": "Srednja",
+        "status_complete": "Dokončana",
+        "status_open": "Odprta"
+    },
+    "tasksListItem": {
+        "reminder": {
+            "doNotRemindMe": "Ne opominjaj me",
+            "remindMeOn": "Opomni me na"
+        }
+    },
+    "list": {
+        "empty": "Zdi se, da tukaj ni ničesar."
     }
 }
