@@ -60,7 +60,7 @@
         },
         "checkbox": {
             "allDay": {
-                "label": "Podsjeti me na svaki prijavu tokom dana"
+                "label": "Podsjeti me pri svakoj prijavi tokom dana"
             }
         }
     },
