@@ -1,1 +1,49 @@
-{}
+{
+    "action": {
+        "complete": "Finalitzat",
+        "delete": "Suprimeix",
+        "edit": "Edita",
+        "undo": "Desfés"
+    },
+    "board": {
+        "dateTimePicker": {
+            "reminder": {
+                "label": "Recordatori"
+            }
+        },
+        "label": {
+            "description": "Descripció",
+            "details": "Detalls"
+        },
+        "newTask": {
+            "title": "Tasca nova"
+        },
+        "select": {
+            "priority": {
+                "label": "Prioritat"
+            }
+        }
+    },
+    "displayer": {
+        "details": {
+            "description": "Descripció",
+            "priority": "Prioritat",
+            "reminder": "Recordatori"
+        }
+    },
+    "label": {
+        "app_name": "Tasques",
+        "new": "Tasca nova"
+    },
+    "modal": {
+        "close": "Tancar",
+        "reminder": {
+            "dismiss": "Rebutja"
+        }
+    },
+    "task": {
+        "priority_high": "Alta",
+        "status_complete": "Finalitzat",
+        "status_open": "Obre"
+    }
+}
