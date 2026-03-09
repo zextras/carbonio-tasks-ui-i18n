@@ -22,13 +22,40 @@
             "priority": {
                 "label": "Prioritat"
             }
+        },
+        "confirmButton": {
+            "create": "Creat"
+        },
+        "editTask": {
+            "title": "Editar etiqueta"
+        },
+        "input": {
+            "description": {
+                "error": {
+                    "label": "La longitud màxima de la contrasenya és de {0} caràcters"
+                }
+            },
+            "title": {
+                "label": "Títol:"
+            }
+        },
+        "textArea": {
+            "description": {
+                "error": {
+                    "label": "La longitud màxima de la contrasenya és de {0} caràcters"
+                }
+            },
+            "taskDescription": {
+                "label": "Descripció"
+            }
         }
     },
     "displayer": {
         "details": {
             "description": "Descripció",
             "priority": "Prioritat",
-            "reminder": "Recordatori"
+            "reminder": "Recordatori",
+            "creationDate": "Data de creació"
         }
     },
     "label": {
@@ -39,11 +66,18 @@
         "close": "Tancar",
         "reminder": {
             "dismiss": "Rebutja"
+        },
+        "delete": {
+            "button": {
+                "confirm": "Eliminar permanentment"
+            }
         }
     },
     "task": {
         "priority_high": "Alta",
         "status_complete": "Finalitzat",
-        "status_open": "Obre"
+        "status_open": "Obre",
+        "priority_low": "Baix",
+        "priority_medium": "Mitjà"
     }
 }
