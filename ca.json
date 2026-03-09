@@ -56,7 +56,26 @@
             "priority": "Prioritat",
             "reminder": "Recordatori",
             "creationDate": "Data de creació"
-        }
+        },
+        "allTasks": [
+            {
+                "message": "Feu clic al botó \"NOU\" per crear una tasca.",
+                "title": "Comenceu a organitzar el vostre dia."
+            },
+            {
+                "message": "Podeu crear fins a 200 tasques.",
+                "title": "Feu clic al botó \"NOU\" per crear una tasca."
+            },
+            {
+                "title": "Feu clic al botó \"NOU\" per crear una tasca i comenceu a organitzar les vostres activitats."
+            }
+        ],
+        "allTasks_limitReached": [
+            {
+                "message": "Suprimiu les tasques anteriors per crear-ne més.",
+                "title": "Heu arribat al nombre màxim de tasques."
+            }
+        ]
     },
     "label": {
         "app_name": "Tasques",
@@ -65,12 +84,18 @@
     "modal": {
         "close": "Tancar",
         "reminder": {
-            "dismiss": "Rebutja"
+            "dismiss": "Rebutja",
+            "completeAll": "Finalitzeu tot",
+            "remindMeOn": "Recorda-me el",
+            "title": "Recordatoris de tasques",
+            "undoAll": "Desfer tot"
         },
         "delete": {
             "button": {
                 "confirm": "Eliminar permanentment"
-            }
+            },
+            "body": "Suprimireu permanentment aquesta tasca. No podreu recuperar aquesta tasca mai més. Aquesta acció és irreversible.",
+            "header": "Aquesta acció és irreversible"
         }
     },
     "task": {
@@ -79,5 +104,30 @@
         "status_open": "Obre",
         "priority_low": "Baix",
         "priority_medium": "Mitjà"
+    },
+    "newTaskBoard": {
+        "banner": {
+            "lastTask": "Aquesta és l'última tasca que pots crear. Esborra les teves tasques anteriors per crear-ne més.",
+            "limitReached": "Has arribat a les 200 tasques. Esborra les teves tasques anteriors per crear-ne més."
+        }
+    },
+    "secondaryBar": {
+        "allTasks": "Totes les tasques"
+    },
+    "snackbar": {
+        "completeTask": "Tasca \"{{taskTitle}}\" completada",
+        "permanentlyDeletedTask": "Tasca eliminada de manera permanent",
+        "restoreTask": "Tasca restaurada a la carpeta de totes les tasques",
+        "tasksLimitReached": "Has arribat a les 200 tasques. Esborra les teves tasques anteriors per crear-ne més.",
+        "uncompleteTask": "Tasca \"{{taskTitle}}\" incomplerta"
+    },
+    "tasksListItem": {
+        "reminder": {
+            "doNotRemindMe": "No em recordis",
+            "remindMeOn": "Recorda-me el"
+        }
+    },
+    "list": {
+        "empty": "Sembla que no hi ha res aquí."
     }
 }
