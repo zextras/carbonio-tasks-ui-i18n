@@ -3,7 +3,8 @@
         "edit": "Bearbeiten",
         "undo": "Rückgängig machen",
         "complete": "Abgeschlossen",
-        "delete": "Löschen"
+        "delete": "Löschen",
+        "uncomplete": "Unvollständig"
     },
     "board": {
         "confirmButton": {
