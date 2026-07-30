@@ -89,7 +89,7 @@
         ],
         "allTasks_limitReached": [
             {
-                "message": "Um eine neue zu erstellen, führen Sie einige vorhandene Aufgaben aus.",
+                "message": "Löschen sie bisherige Aufgaben um eine neue anlegen zu können.",
                 "title": "Sie haben die maximale Anzahl von Aufgaben erreicht."
             }
         ]
@@ -111,7 +111,8 @@
             "button": {
                 "confirm": "Endgültig löschen"
             },
-            "header": "Diese Aktion ist unwiderruflich"
+            "header": "Diese Aktion ist unwiderruflich",
+            "body": "Sie werden diese Aufgabe endgültig löschen. Sie können diese Aufgabe danach nicht mehr wiederherstellen. Diese Aktion ist unwiderruflich."
         }
     },
     "task": {
