@@ -5,5 +5,15 @@
         "edit": "Επεξεργασία",
         "uncomplete": "Μη ολοκληρωμένο",
         "undo": "Αναίρεση"
+    },
+    "board": {
+        "label": {
+            "description": "Περιγραφή"
+        }
+    },
+    "displayer": {
+        "details": {
+            "description": "[GR] Description"
+        }
     }
 }
