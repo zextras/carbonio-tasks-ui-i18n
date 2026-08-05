@@ -1,1 +1,57 @@
-{}
+{
+    "action": {
+        "delete": "წაშლა",
+        "edit": "ჩასწორება",
+        "complete": "დასრულდა",
+        "uncomplete": "დაუსრულებელია",
+        "undo": "ბრძანების გაუქმება"
+    },
+    "board": {
+        "label": {
+            "description": "აღწერა",
+            "details": "დეტალები"
+        },
+        "confirmButton": {
+            "create": "შექმნა",
+            "edit": "ჩასწორება"
+        },
+        "dateTimePicker": {
+            "reminder": {
+                "label": "შეხსენება"
+            }
+        },
+        "input": {
+            "title": {
+                "label": "სათაური*"
+            }
+        },
+        "select": {
+            "priority": {
+                "label": "პრიორიტეტი"
+            }
+        }
+    },
+    "displayer": {
+        "details": {
+            "description": "აღწერა",
+            "priority": "პრიორიტეტი",
+            "reminder": "შეხსენება"
+        }
+    },
+    "label": {
+        "app_name": "ამოცანები"
+    },
+    "modal": {
+        "close": "დახურვა",
+        "reminder": {
+            "dismiss": "მოცილება"
+        }
+    },
+    "task": {
+        "priority_high": "მაღალი",
+        "priority_low": "დაბალი",
+        "priority_medium": "საშუალო",
+        "status_complete": "დასრულებულია",
+        "status_open": "გახსნა"
+    }
+}
