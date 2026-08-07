@@ -29,22 +29,48 @@
             "priority": {
                 "label": "პრიორიტეტი"
             }
+        },
+        "editTask": {
+            "title": "ამოცანის ჩასწორება"
+        },
+        "newTask": {
+            "title": "ახალი ამოცანა"
+        },
+        "switch": {
+            "enableReminder": {
+                "label": "შეხსენების ჩართვა"
+            }
+        },
+        "textArea": {
+            "taskDescription": {
+                "label": "ამოცანის აღწერა"
+            }
         }
     },
     "displayer": {
         "details": {
             "description": "აღწერა",
             "priority": "პრიორიტეტი",
-            "reminder": "შეხსენება"
+            "reminder": "შეხსენება",
+            "creationDate": "შექმნის თარიღი"
         }
     },
     "label": {
-        "app_name": "ამოცანები"
+        "app_name": "ამოცანები",
+        "new": "ახალი ამოცანა"
     },
     "modal": {
         "close": "დახურვა",
         "reminder": {
-            "dismiss": "მოცილება"
+            "dismiss": "მოცილება",
+            "completeAll": "ყველა დასრულება",
+            "title": "ამოცანის შეხსენებები",
+            "undoAll": "ყველა გაუქმება"
+        },
+        "delete": {
+            "button": {
+                "confirm": "სამუდამოდ წაშლა"
+            }
         }
     },
     "task": {
@@ -53,5 +79,8 @@
         "priority_medium": "საშუალო",
         "status_complete": "დასრულებულია",
         "status_open": "გახსნა"
+    },
+    "secondaryBar": {
+        "allTasks": "ყველა ამოცანა"
     }
 }
