@@ -65,7 +65,8 @@
             "dismiss": "მოცილება",
             "completeAll": "ყველა დასრულება",
             "title": "ამოცანის შეხსენებები",
-            "undoAll": "ყველა გაუქმება"
+            "undoAll": "ყველა გაუქმება",
+            "remindMeOn": "შემახსენე"
         },
         "delete": {
             "button": {
@@ -82,5 +83,15 @@
     },
     "secondaryBar": {
         "allTasks": "ყველა ამოცანა"
+    },
+    "snackbar": {
+        "completeTask": "ამოცანა \"{{taskTitle}}\" შესრულდა",
+        "permanentlyDeletedTask": "ამოცანა სამუდამოდ წაიშალა",
+        "uncompleteTask": "ამოცანა \"{{taskTitle}}\" დასრულებული არაა"
+    },
+    "tasksListItem": {
+        "reminder": {
+            "remindMeOn": "შემახსენე"
+        }
     }
 }
