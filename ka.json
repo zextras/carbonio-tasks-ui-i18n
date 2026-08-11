@@ -53,7 +53,12 @@
             "priority": "პრიორიტეტი",
             "reminder": "შეხსენება",
             "creationDate": "შექმნის თარიღი"
-        }
+        },
+        "allTasks": [
+            {
+                "title": "დაიწყეთ დღის ორგანიზება."
+            }
+        ]
     },
     "label": {
         "app_name": "ამოცანები",
@@ -71,7 +76,8 @@
         "delete": {
             "button": {
                 "confirm": "სამუდამოდ წაშლა"
-            }
+            },
+            "header": "ეს ქმედება შეუქცევადია"
         }
     },
     "task": {
@@ -91,7 +97,8 @@
     },
     "tasksListItem": {
         "reminder": {
-            "remindMeOn": "შემახსენე"
+            "remindMeOn": "შემახსენე",
+            "doNotRemindMe": "არ შემახსენო"
         }
     }
 }
