@@ -23,6 +23,11 @@
         "input": {
             "title": {
                 "label": "სათაური*"
+            },
+            "description": {
+                "error": {
+                    "label": "მაქს. დაშვებული სიგრძეა 1024 სიმბოლო"
+                }
             }
         },
         "select": {
@@ -44,6 +49,11 @@
         "textArea": {
             "taskDescription": {
                 "label": "ამოცანის აღწერა"
+            },
+            "description": {
+                "error": {
+                    "label": "მაქს. დაშვებული სიგრძეა 4096 სიმბოლო"
+                }
             }
         }
     },
@@ -57,6 +67,14 @@
         "allTasks": [
             {
                 "title": "დაიწყეთ დღის ორგანიზება."
+            },
+            {
+                "message": "შეგიძლიათ, შექმნათ 200-მდე ამოცანა."
+            }
+        ],
+        "allTasks_limitReached": [
+            {
+                "message": "ახლების შესაქმნელად ჯერ წინა ამოცანები წაშალეთ."
             }
         ]
     },
@@ -93,12 +111,16 @@
     "snackbar": {
         "completeTask": "ამოცანა \"{{taskTitle}}\" შესრულდა",
         "permanentlyDeletedTask": "ამოცანა სამუდამოდ წაიშალა",
-        "uncompleteTask": "ამოცანა \"{{taskTitle}}\" დასრულებული არაა"
+        "uncompleteTask": "ამოცანა \"{{taskTitle}}\" დასრულებული არაა",
+        "restoreTask": "ამოცანა აღდგენილია საქაღალდეში 'ყველა ამოცანა'"
     },
     "tasksListItem": {
         "reminder": {
             "remindMeOn": "შემახსენე",
             "doNotRemindMe": "არ შემახსენო"
         }
+    },
+    "list": {
+        "empty": "როგორც ჩანს, აქ არაფერია."
     }
 }
